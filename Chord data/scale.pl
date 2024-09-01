@@ -150,7 +150,7 @@ foreach my $c (sort @chords) {
   (my $k, my $n) = split(/;/, $c);
   if ($last_k eq $k) {
     if ($last_n ne $n) {
-      my $out = sprintf("Duplicate: '%-16.16s', '%-16.16s' for ", $last_n, $n);
+      my $out = sprintf("Two names: '%-16.16s', '%-16.16s' for ", $last_n, $n);
       print $out . "        " . &notenames($k) . "\n";
       $duplicates++;
     } 
