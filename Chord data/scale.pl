@@ -3,6 +3,8 @@
 # output: data structures in JSON format
 #
 use Data::Dumper;
+use Data::HexDump;
+use Class::Struct;
 use strict;
 
 # Data structures:
@@ -24,20 +26,39 @@ for (my $i = 0; $i < 127; $i++) {
 #   . offset to Groups
 #   . number of Groups
 my @categories;
+struct( Category => {
+    name => '$',
+    offset => '$',
+    groups => '$'
+});
 
 # - Category groups
 #   . name
 #   . offset to Scales
 #   . number of Scales
 my @groups;
+struct( Group => {
+    name => '$',
+    offset => '$',
+    scales => '$'
+});
 
 # - Scales
 #   . name
 #   . offset to Chords
 #   . foo?
 #   . index 0..11
-#   . chords array 0..63
+#   . chords array 0..47
+#   . notes array 0..31
 my @scales;
+struct( Scale => {
+    name => '$',
+    offset => '$',
+    foo => '$',
+    index => '$',
+    chords => '@',
+    notes => '@'
+});
 
 # - Chords
 #   . name
@@ -69,30 +90,30 @@ while(read(FD, $block, $blocksize)) {
     if ($mode == 0 || $mode == 1) { # Categories & Groups
       if ($#d == 2) {  # a valid set?
         # work on category data
-        push @categories, { name=>$d[0], offset=>$indexoffset, slots=>$d[2] } if ($mode == 0);
-        push @groups, { name=>$d[0], offset=>$indexoffset, slots=>$d[2] } if ($mode == 1);
+        push @categories, Category->new( name=>$d[0], offset=>$indexoffset, slots=>$d[2]) if ($mode == 0);
+        push @groups, Group->new( name=>$d[0], offset=>$indexoffset, slots=>$d[2] ) if ($mode == 1);
         $indexoffset += $d[2];
       }
     } elsif ($mode == 2) { # Scales
       if ($#d > 2) { # do not read 0xff unused data
         # work on scale data
-        push @scales, { name=>$d[0], foo=>$d[2], slot=>$d[3] };
+        push @scales, Scale->new( name=>$d[0], foo=>$d[2], index=>$d[3] );
         $indexoffset++;
       }
     }
   } elsif ($mode == 3) { # Chords
     # work on chord data
     my @c;
-    (@c) = $block =~ /(\d{14})(\d\d)(.*)/;
+    (@c) = $block =~ /(\d{14})(\d\d)([ -z]*)/;
     # add to scale etc.
     if ($c[0] =~ /[1-9]/) { # drop zero/NULL entries
       # Chord entries go up to scaleoffs = 47
       # next 32 are right keypad note entries
       # valid entry. Check if it is already known
+      # strip trailing 00 pairs
+      (my $n, my $dump) = $c[0] =~ /^((([1-9][1-9])|([1-9]\d)|(\d[1-9]))+)(00)*$/;
       if ($scaleoffs < 48) {
         $found_chord = -1;
-        # strip trailing 00 pairs
-        (my $n, my $dump) = $c[0] =~ /^((([1-9][1-9])|([1-9]\d)|(\d[1-9]))+)(00)*$/;
         my $key = $n . ';' . $c[2];
         if (@chords > 0) {
           for (my $i = 0; $i < @chords; $i++) {
@@ -106,10 +127,14 @@ while(read(FD, $block, $blocksize)) {
           push @chords, $key;
           $found_chord = $#chords;
         }
+        my $sref = $scales[$scale]->chords;
+        push @{$sref}, $found_chord . ';' . $c[1];
+        # print Dumper(@{$sref});
+      } else {
+        # note entry
+        my $sref = $scales[$scale]->notes;
+        push @{$sref}, $n + 0;
       }
-      push @{$scales[$scale]{chords}}, $found_chord . ';' . $c[1];
-    } else {
-      # note entry
     }
     $scaleoffs++;
     if ($scaleoffs >= 80) { # scales have blocks of up to 64 chords
@@ -139,7 +164,7 @@ print "Categories: $#categories\n";
 print "Groups: $#groups\n";
 # print Dumper(\@groups);
 print "Scales: $#scales\n";
-# print Dumper(\@scales);
+print Dumper(\@scales);
 print "Chords: $#chords\n";
 # print Dumper(\@chords);
 
@@ -150,7 +175,7 @@ foreach my $c (sort @chords) {
   (my $k, my $n) = split(/;/, $c);
   if ($last_k eq $k) {
     if ($last_n ne $n) {
-      my $out = sprintf("Two names: '%-16.16s', '%-16.16s' for ", $last_n, $n);
+      my $out = sprintf("Two names: '%-16s', '%-16s' for ", $last_n, $n);
       print $out . "        " . &notenames($k) . "\n";
       $duplicates++;
     } 
