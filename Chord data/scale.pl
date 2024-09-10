@@ -45,7 +45,6 @@ struct( Group => {
 
 # - Scales
 #   . name
-#   . offset to Chords
 #   . foo?
 #   . index 0..11
 #   . chords array 0..47
@@ -53,7 +52,6 @@ struct( Group => {
 my @scales;
 struct( Scale => {
     name => '$',
-    offset => '$',
     foo => '$',
     index => '$',
     chords => '@',
@@ -74,11 +72,11 @@ my $indexoffset = 0;    # Next array index in dependent data type array
 my $duplicates = 0;     # number of multiple names for chords
 my $block;
 my $scale = 0;
+my $scaleoffs = 0;
 
 open(FD, $ARGV[0]) or die "Cannot open '" . $ARGV[0] . "' - $!\n";
 while(read(FD, $block, $blocksize)) {
   my $found_chord;
-  my $scaleoffs;
   $filepointer += $blocksize;
   my $head = $block;    # get rid of trailing zero bytes
   if ($mode < 3) {  # works for $mode 0..2
@@ -97,7 +95,8 @@ while(read(FD, $block, $blocksize)) {
     } elsif ($mode == 2) { # Scales
       if ($#d > 2) { # do not read 0xff unused data
         # work on scale data
-        push @scales, Scale->new( name=>$d[0], foo=>$d[2], index=>$d[3] );
+        (my $inx) = $d[3]=~/^(\d+)/;
+        push @scales, Scale->new( name=>$d[0], foo=>$d[2], index=>$inx );
         $indexoffset++;
       }
     }
@@ -127,23 +126,21 @@ while(read(FD, $block, $blocksize)) {
           push @chords, $key;
           $found_chord = $#chords;
         }
-        my $sref = $scales[$scale]->chords;
-        push @{$sref}, $found_chord . ';' . $c[1];
-        # print Dumper(@{$sref});
+        push @{$scales[$scale]->chords}, $found_chord . ';' . $c[1];
       } else {
         # note entry
-        my $sref = $scales[$scale]->notes;
-        push @{$sref}, $n + 0;
+        push @{$scales[$scale]->notes}, $n + 0 . ';' . $c[1];
       }
+      # printf("Scale %3d: %3d c, %3d n\n", $scale, $#{$scales[$scale]->chords}, $#{$scales[$scale]->notes});
     }
     $scaleoffs++;
-    if ($scaleoffs >= 80) { # scales have blocks of up to 64 chords
+    if ($scaleoffs >= 80) { # scales have blocks of up to 48 chords and 32 notes
       $scale++;
       $scaleoffs = 0;
     }
   }
 # did we get past the data type?
-  if ($endmarker > 0 && $filepointer >= $endmarker) {
+  if ($mode < 3 && $endmarker > 0 && $filepointer >= $endmarker) {
     $endmarker = -1;
     # advance data type
     $mode++;
@@ -164,7 +161,7 @@ print "Categories: $#categories\n";
 print "Groups: $#groups\n";
 # print Dumper(\@groups);
 print "Scales: $#scales\n";
-print Dumper(\@scales);
+# print Dumper(\@scales);
 print "Chords: $#chords\n";
 # print Dumper(\@chords);
 
@@ -184,7 +181,33 @@ foreach my $c (sort @chords) {
 }
 print "$duplicates multiple chord names\n";
 
-# Now recombine the read data
+my $cscale;
+my $cnote;
+my @noteset;
+my @octaves;
+foreach $cscale (@scales) {
+  print $cscale->name, "\n";
+  @noteset = ();
+  @octaves = ();
+  # Count notes and octaves used
+  foreach $cnote (@{$cscale->notes}) {
+    $noteset[$cnote % 12]++;
+    $octaves[int($cnote / 12)]++;
+  }
+  # Check scales for 4 matching sets of notes
+  for (my $i = 0; $i <= $#noteset; $i++) {
+    if ($noteset[$i] > 0) {
+      print $notes[$i];
+      if ($noteset[$i] != 4) {
+        print " OOPS: $noteset[$i]";
+      }
+      print " ";
+    }
+  }
+  print "\n";
+}
+
+
 
 sub notenames {
   my $rc;
@@ -195,6 +218,20 @@ sub notenames {
     @n = $nstr =~ /(\d\d)/g;
     foreach $n (@n) {
       $rc .= $note[$n + 0] . ', ';
+    }
+  }
+  return $rc;
+}
+
+sub strippednotes {
+  my $rc;
+  my $nstr;
+  my $n;
+  my @n;
+  foreach $nstr ( @_ ) {
+    @n = $nstr =~ /(\d\d)/g;
+    foreach $n (@n) {
+      $rc .= $notes[$n % 12] . ', ';
     }
   }
   return $rc;
