@@ -1,6 +1,7 @@
 #! /usr/bin/perl
 # to be started with a THY333 binary dump file as argument
 # output: data structures in JSON format
+#         warnings/errors/hints in 'errorlist.txt'
 #
 use Data::Dumper;
 use Data::HexDump;
@@ -8,23 +9,21 @@ use Class::Struct;
 use strict;
 
 # Data structures:
-# - Note values
-#   . name '-' octave 1..4
-#   . value (index)
-
-# set up static notes array
-my @notes;
-my @note;
+# note names
 my @notes = qw( C C# D D# E F F# G G# A A# B );
+# alternate names for the half tones
 my @altnotes = qw( nil Db nil Eb nil nil Gb nil Ab nil Bb nil );
 my @octaves = qw( -1 0 1 2 3 4 5 6 7 8 9 );
+# set up static notes array
+my @note;
+# Assign the names to all MIDI notes
 for (my $i = 0; $i < 127; $i++) {
   $note[$i] = $notes[$i % 12] . $octaves[int($i / 12)];
 }
 
 # - Categories
 #   . name
-#   . offset to Groups
+#   . offset to into Groups array
 #   . number of Groups
 my @categories;
 struct( Category => {
@@ -35,7 +34,7 @@ struct( Category => {
 
 # - Category groups
 #   . name
-#   . offset to Scales
+#   . offset to Scales array
 #   . number of Scales
 my @groups;
 struct( Group => {
@@ -48,8 +47,8 @@ struct( Group => {
 #   . name
 #   . foo?
 #   . index 0..11
-#   . chords array 0..47
-#   . notes array 0..31
+#   . chords array 0..47 containing chord index and color group
+#   . notes array 0..31 as chords
 my @scales;
 struct( Scale => {
     name => '$',
@@ -62,24 +61,32 @@ struct( Scale => {
 # - Chords
 #   . name
 #   . notes[7]
+#   . id is index in chords array for easier reference
+#   . warning will be set != 0 if an error was found regarding the chord
 my @chords;
+struct( Chord => {
+    name => '$',
+    notes => '$',
+    warning => '$',
+    id => '$'
+});
 
 $, = " - ";
 my $filepointer = 0;    # current number of bytes read from file
 my $endmarker = -1;     # next file position to change data structure
-my $mode = 0;           # 0:Categories, 1:Groups, 2:Scales, 3:Chords
+my $mode = 0;           # 0:Categories, 1:Groups, 2:Scales, 3:Chords and notes
 my $blocksize = 256;    # size of chunks to be read - depends on data type
 my $indexoffset = 0;    # Next array index in dependent data type array
-my $duplicates = 0;     # number of multiple names for chords
-my $block;
-my $scale = 0;
-my $scaleoffs = 0;
+my $scale = 0;          # in scale mode counts the number of scales collected
+my $scaleoffs = 0;      # count of chords/notes within a scale
+
+open(ERRORLIST, '>', 'errorlist.txt') or die "Cannot write to 'errorlist.txt' - $!\n";
 
 open(FD, $ARGV[0]) or die "Cannot open '" . $ARGV[0] . "' - $!\n";
-while(read(FD, $block, $blocksize)) {
+while(read(FD, my $block, $blocksize)) {
   my $found_chord;
   $filepointer += $blocksize;
-  my $head = $block;    # get rid of trailing zero bytes
+  (my $head) = $block=~/^([^\x00]*)/;    # get rid of trailing zero bytes
   if ($mode < 3) {  # works for $mode 0..2
     my @d = split(/;/, $head);
     my $offs = hex($d[1]);  # offset to sub-category
@@ -115,25 +122,24 @@ while(read(FD, $block, $blocksize)) {
       if ($scaleoffs < 48) {
         # chord entry
         $found_chord = -1;
-        my $key = $n . ';' . &unifiedname($c[2]);
+        my $key = &unifiedname($c[2]);
         if (@chords > 0) {
           for (my $i = 0; $i < @chords; $i++) {
-            if ($key eq $chords[$i]) {
+            if ($chords[$i]->name eq $key && $chords[$i]->notes eq $n) {
               $found_chord = $i;
               last;
             }
           }
         }
         if ($found_chord < 0) { # nothing found
-          push @chords, $key;
-          $found_chord = $#chords;
+          $found_chord = $#chords + 1;
+          push @chords, Chord->new( name => $key, notes => $n, warning => 0, id => $found_chord );
         }
         push @{$scales[$scale]->chords}, $found_chord . ';' . $c[1];
       } else {
         # note entry
         push @{$scales[$scale]->notes}, $n + 0 . ';' . $c[1];
       }
-      # printf("Scale %3d: %3d c, %3d n\n", $scale, $#{$scales[$scale]->chords}, $#{$scales[$scale]->notes});
     }
     $scaleoffs++;
     if ($scaleoffs >= 80) { # scales have blocks of up to 48 chords and 32 notes
@@ -168,21 +174,28 @@ print "Chords: $#chords\n";
 # print Dumper(\@chords);
 
 # Check chords for correctness
+print ERRORLIST "Chord checks\n";
+print ERRORLIST "============\n";
+my $duplicates = 0;     # number of multiple names for chords
 my $last_k = 'NIL';
 my $last_n = 'NIL';
-foreach my $c (sort @chords) {
-  (my $k, my $n) = split(/;/, $c);
+foreach my $c (sort { $a->notes cmp $b->notes } @chords) {
+  my $k = $c->notes;
+  my $n = $c->name;
   if ($last_k eq $k) {
     if ($last_n ne $n) {
       my $out = sprintf(">>>> name trouble: '%-16s', '%-16s' for ", $last_n, $n);
-      print $out . "        " . &notenames($k) . "\n";
+      print ERRORLIST $out . "        " . &notenames($k) . "\n";
+      $c->warning(1);
       $duplicates++;
     } 
   }
   ($last_k, $last_n) = ($k, $n);
 }
-print "$duplicates multiple chord names\n";
+print ERRORLIST "$duplicates multiple chord names\n\n";
 
+print ERRORLIST "Scale checks\n";
+print ERRORLIST "============\n";
 my $cnote;
 my $cname;
 my $cchord;
@@ -199,16 +212,23 @@ foreach my $cscale (@scales) {
     $octaves[int($cnote / 12)]++;
   }
   # Check scales for 4 matching sets of notes
+  my @oops = ();
   for (my $i = 0; $i <= $#noteset; $i++) {
     if ($noteset[$i] > 0) {
       $errinfo .= $notes[$i] . ' ';
       if ($noteset[$i] != 4) {
-        print $errinfo;
-        print "\n>>>> OOPS $notes[$i]: $noteset[$i]\n";
+        push @oops, $i;
       }
     }
   }
   $errinfo .= ")";
+        
+  if (@oops > 0) {
+    print ERRORLIST "$errinfo\n";
+    foreach my $oops (@oops) {
+      print ERRORLIST ">>>> note count not 4: $notes[$oops]: $noteset[$oops]\n";
+    }
+  }
 
   my $ocnt = 0;
   my $o;
@@ -219,19 +239,19 @@ foreach my $cscale (@scales) {
       $continuous++;
     } else {
       if ($continuous) {
-        print "$errinfo\n>>>> OOPS: octave gap?\n";
+        print ERRORLIST "$errinfo\n>>>> OOPS: octave gap?\n";
       }
     }
   }
   # Check scales for 4 increasing octaves
   if ($ocnt < 4 || $ocnt > 5) {
-    print "$errinfo\n>>>> OOPS: octave count: $ocnt ";
+    print ERRORLIST "$errinfo\n>>>> OOPS: octave count: $ocnt ";
     for (my $i = 0; $i <= $#octaves; $i++) {
       if ($octaves[$i] > 0) {
-        printf(" O%d: %d ", $i, $octaves[$i]);
+        printf(ERRORLIST " O%d: %d ", $i, $octaves[$i]);
       }
     }
-    print "\n";
+    print ERRORLIST "\n";
   }
 
   # check chords for the use of the scale's notes
@@ -240,21 +260,32 @@ foreach my $cscale (@scales) {
     my $slot;
     ($id, $slot) = split(/;/, $cchord);
     my @d= ();
-    my $keys;
-    ($keys, $cname) = split(/;/, $chords[$id]);
+    my $keys = $chords[$id]->notes;
+    $cname = $chords[$id]->name;
     @d = $keys=~/^(\d\d)+/;
     my $n;
     foreach $n (@d) {
       $n %= 12;
       if ($noteset[$n] <= 0) {
-        printf("$errinfo\n>>>> %d (%s, %s) off-scale: %s\n", $id, $cname, &strippednotes($keys), $notes[$n]);
+        printf(ERRORLIST "$errinfo\n>>>> Chord %d (%s, %s), off-scale note: %s\n", $id, $cname, &strippednotes($keys), $notes[$n]);
+        $chords[$id]->warning($chords[$id]->warning + 1);
       }
     }
   }
 }
 
+# name all chords with findings
+print ERRORLIST "\nChords requiring a check\n";
+print ERRORLIST "========================\n";
+foreach my $c (@chords) {
+  if ($c->warning) {
+    printf(ERRORLIST "%4d %-12s (%s)\n", $c->id, $c->name, &notenames($c->notes));
+  }
+}
 
+close(ERRORLIST);
 
+# ------------ Subroutines -------------------------
 sub notenames {
   my $rc;
   my $nstr;
