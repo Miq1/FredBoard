@@ -15,7 +15,8 @@ use strict;
 # set up static notes array
 my @notes;
 my @note;
-my @notes = qw( C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B );
+my @notes = qw( C C# D D# E F F# G G# A A# B );
+my @altnotes = qw( nil Db nil Eb nil nil Gb nil Ab nil Bb nil );
 my @octaves = qw( -1 0 1 2 3 4 5 6 7 8 9 );
 for (my $i = 0; $i < 127; $i++) {
   $note[$i] = $notes[$i % 12] . $octaves[int($i / 12)];
@@ -112,8 +113,9 @@ while(read(FD, $block, $blocksize)) {
       # strip trailing 00 pairs
       (my $n, my $dump) = $c[0] =~ /^((([1-9][1-9])|([1-9]\d)|(\d[1-9]))+)(00)*$/;
       if ($scaleoffs < 48) {
+        # chord entry
         $found_chord = -1;
-        my $key = $n . ';' . $c[2];
+        my $key = $n . ';' . &unifiedname($c[2]);
         if (@chords > 0) {
           for (my $i = 0; $i < @chords; $i++) {
             if ($key eq $chords[$i]) {
@@ -172,7 +174,7 @@ foreach my $c (sort @chords) {
   (my $k, my $n) = split(/;/, $c);
   if ($last_k eq $k) {
     if ($last_n ne $n) {
-      my $out = sprintf("Two names: '%-16s', '%-16s' for ", $last_n, $n);
+      my $out = sprintf(">>>> name trouble: '%-16s', '%-16s' for ", $last_n, $n);
       print $out . "        " . &notenames($k) . "\n";
       $duplicates++;
     } 
@@ -181,12 +183,14 @@ foreach my $c (sort @chords) {
 }
 print "$duplicates multiple chord names\n";
 
-my $cscale;
 my $cnote;
+my $cname;
+my $cchord;
 my @noteset;
 my @octaves;
-foreach $cscale (@scales) {
-  print $cscale->name, "\n";
+my $errinfo;
+foreach my $cscale (@scales) {
+  $errinfo =  $cscale->name . "(";
   @noteset = ();
   @octaves = ();
   # Count notes and octaves used
@@ -197,14 +201,56 @@ foreach $cscale (@scales) {
   # Check scales for 4 matching sets of notes
   for (my $i = 0; $i <= $#noteset; $i++) {
     if ($noteset[$i] > 0) {
-      print $notes[$i];
+      $errinfo .= $notes[$i] . ' ';
       if ($noteset[$i] != 4) {
-        print " OOPS: $noteset[$i]";
+        print $errinfo;
+        print "\n>>>> OOPS $notes[$i]: $noteset[$i]\n";
       }
-      print " ";
     }
   }
-  print "\n";
+  $errinfo .= ")";
+
+  my $ocnt = 0;
+  my $o;
+  my $continuous = 0;
+  foreach $o (@octaves) {
+    if ($o > 0) {
+      $ocnt++;
+      $continuous++;
+    } else {
+      if ($continuous) {
+        print "$errinfo\n>>>> OOPS: octave gap?\n";
+      }
+    }
+  }
+  # Check scales for 4 increasing octaves
+  if ($ocnt < 4 || $ocnt > 5) {
+    print "$errinfo\n>>>> OOPS: octave count: $ocnt ";
+    for (my $i = 0; $i <= $#octaves; $i++) {
+      if ($octaves[$i] > 0) {
+        printf(" O%d: %d ", $i, $octaves[$i]);
+      }
+    }
+    print "\n";
+  }
+
+  # check chords for the use of the scale's notes
+  foreach $cchord (@{$cscale->chords}) {
+    my $id;
+    my $slot;
+    ($id, $slot) = split(/;/, $cchord);
+    my @d= ();
+    my $keys;
+    ($keys, $cname) = split(/;/, $chords[$id]);
+    @d = $keys=~/^(\d\d)+/;
+    my $n;
+    foreach $n (@d) {
+      $n %= 12;
+      if ($noteset[$n] <= 0) {
+        printf("$errinfo\n>>>> %d (%s, %s) off-scale: %s\n", $id, $cname, &strippednotes($keys), $notes[$n]);
+      }
+    }
+  }
 }
 
 
@@ -235,4 +281,16 @@ sub strippednotes {
     }
   }
   return $rc;
+}
+
+sub unifiedname {
+  my $uname;
+  my $n;
+  $uname = $_[0];
+  for ($n = 0; $n < @altnotes; $n++) {
+    if ($altnotes[$n] ne 'nil') {
+      $uname =~ s/\Q$altnotes[$n]\E/$notes[$n]/g; 
+    }
+  }
+  return $uname;
 }

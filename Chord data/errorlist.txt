@@ -1,0 +1,3575 @@
+Categories: 9
+Groups: 69
+Scales: 839
+Chords: 879
+>>>> name trouble: 'Dm7(b9)         ', 'F7(13)          ' for         D#3, A3, C4, D4, F4, 
+>>>> name trouble: 'D#(maj7(b5)     ', 'D#maj7(b5)      ' for         D#3, A3, D4, G4, 
+>>>> name trouble: 'A#6(add4)       ', 'D#maj7(9)       ' for         D#3, A#3, D4, F4, G4, 
+>>>> name trouble: 'D#(maj7(#5)     ', 'D#maj7(#5)      ' for         D#3, B3, D4, G4, 
+>>>> name trouble: 'C#m9            ', 'Emaj7(13)       ' for         E3, G#3, B3, C#4, D#4, 
+>>>> name trouble: 'B6(add4)        ', 'Emaj7(9)        ' for         E3, G#3, B3, D#4, F#4, 
+>>>> name trouble: 'D#m7(b9)        ', 'F#7(13)         ' for         E3, A#3, C#4, D#4, F#4, 
+>>>> name trouble: 'Fm(maj7)        ', 'G#aug6/F        ' for         F3, G#3, C4, E4, 
+>>>> name trouble: 'Dm9             ', 'Fmaj7(13)       ' for         F3, A3, C4, D4, E4, 
+>>>> name trouble: 'C6(add4)        ', 'Fmaj7(9)        ' for         F3, A3, C4, E4, G4, 
+>>>> name trouble: 'Em7(b9)         ', 'G7(13)          ' for         F3, B3, D4, E4, G4, 
+>>>> name trouble: 'C(add2)         ', 'C(add4)         ' for         F3, C4, E4, G4, 
+>>>> name trouble: 'C#6(add4)       ', 'F#maj7(9)       ' for         F#3, G#3, A#3, C#4, F4, 
+>>>> name trouble: 'Fm7(b9)         ', 'G#7(13)         ' for         F#3, G#3, C4, D#4, F4, 
+>>>> name trouble: 'Aaug6/F#        ', 'F#m(maj7)       ' for         F#3, A3, C#4, F4, 
+>>>> name trouble: 'D#m9            ', 'F#maj7(13)      ' for         F#3, A#3, C#4, D#4, F4, 
+>>>> name trouble: 'D6(add4)        ', 'Gmaj7(9)        ' for         G3, A3, B3, D4, F#4, 
+>>>> name trouble: 'A7(13)          ', 'F#m7(b9)        ' for         G3, A3, C#4, E4, F#4, 
+>>>> name trouble: 'A#aug6/G        ', 'Gm(maj7)        ' for         G3, A#3, D4, F#4, 
+>>>> name trouble: 'Em9             ', 'Gmaj7(13)       ' for         G3, B3, D4, E4, F#4, 
+>>>> name trouble: 'Baug6           ', 'Baug6/G         ' for         G3, B3, D#4, G#4, 
+>>>> name trouble: 'Fm7sus4         ', 'G#6(add9)       ' for         G#3, A#3, C4, D#4, F4, 
+>>>> name trouble: 'D#6(add4)       ', 'G#maj7(9)       ' for         G#3, A#3, C4, D#4, G4, 
+>>>> name trouble: 'Cm7(#5)         ', 'G#(add2)        ' for         G#3, A#3, C4, D#4, 
+>>>> name trouble: 'G#(add2)        ', 'G#(add9)        ' for         G#3, A#3, C4, D#4, 
+>>>> name trouble: 'A#m7sus4        ', 'C#6(add9)       ' for         G#3, A#3, C#4, D#4, F4, 
+>>>> name trouble: 'D#m7sus4        ', 'F#6(add9)       ' for         G#3, A#3, C#4, D#4, F#4, 
+>>>> name trouble: 'A#m7(b5)        ', 'C#m6            ' for         G#3, A#3, C#4, E4, 
+>>>> name trouble: 'C#m6            ', 'C#m6/G#         ' for         G#3, A#3, C#4, E4, 
+>>>> name trouble: 'C#m6/G#         ', 'E6(b5)          ' for         G#3, A#3, C#4, E4, 
+>>>> name trouble: 'A#m9            ', 'C#maj7(13)      ' for         G#3, A#3, C#4, F4, C5, 
+>>>> name trouble: 'A#m7            ', 'C#6             ' for         G#3, A#3, C#4, F4, 
+>>>> name trouble: 'C#6             ', 'C#6/G#          ' for         G#3, A#3, C#4, F4, 
+>>>> name trouble: 'A#m7(#5)        ', 'F#(add2)        ' for         G#3, A#3, C#4, F#4, 
+>>>> name trouble: 'F#(add2)        ', 'F#(add9)        ' for         G#3, A#3, C#4, F#4, 
+>>>> name trouble: 'A#7(b5)         ', 'E7(b5)          ' for         G#3, A#3, D4, E4, 
+>>>> name trouble: 'A#7(13)         ', 'Gm7(b9)         ' for         G#3, A#3, D4, F4, G4, 
+>>>> name trouble: 'A#7             ', 'Ddim7           ' for         G#3, A#3, D4, F4, 
+>>>> name trouble: 'D#sus4          ', 'G#sus2          ' for         G#3, A#3, D#4, 
+>>>> name trouble: 'B6(add9)        ', 'G#m7sus4        ' for         G#3, B3, C#4, D#4, F#4, 
+>>>> name trouble: 'C#m7sus4        ', 'E6(add9)        ' for         G#3, B3, C#4, E4, F#4, 
+>>>> name trouble: 'C#m7            ', 'E6              ' for         G#3, B3, C#4, E4, 
+>>>> name trouble: 'A#m7(b9)        ', 'C#7(13)         ' for         G#3, B3, C#4, F4, A#4, 
+>>>> name trouble: 'C#m7(b9)        ', 'E7(13)          ' for         G#3, B3, D4, E4, C#5, 
+>>>> name trouble: 'E7              ', 'E7/G#           ' for         G#3, B3, D4, E4, 
+>>>> name trouble: 'Bdim7           ', 'Ddim7           ' for         G#3, B3, D4, F4, 
+>>>> name trouble: 'Ddim7           ', 'Fdim7           ' for         G#3, B3, D4, F4, 
+>>>> name trouble: 'Fdim7           ', 'G#dim7          ' for         G#3, B3, D4, F4, 
+>>>> name trouble: 'Bm6             ', 'D6(b5)          ' for         G#3, B3, D4, F#4, 
+>>>> name trouble: 'D6(b5)          ', 'G#m7(b5)        ' for         G#3, B3, D4, F#4, 
+>>>> name trouble: 'B6(b5)          ', 'Fm7(b5)         ' for         G#3, B3, D#4, F4, 
+>>>> name trouble: 'Fm7(b5)         ', 'G#m6            ' for         G#3, B3, D#4, F4, 
+>>>> name trouble: 'Bmaj7(13)       ', 'G#m9            ' for         G#3, B3, D#4, F#4, A#4, 
+>>>> name trouble: 'B6              ', 'G#m7            ' for         G#3, B3, D#4, F#4, 
+>>>> name trouble: 'Baug6/G#        ', 'G#m(maj7)       ' for         G#3, B3, D#4, G4, 
+>>>> name trouble: 'E(add2)         ', 'E(add9)         ' for         G#3, B3, E4, F#4, 
+>>>> name trouble: 'E(add9)         ', 'G#m7(#5)        ' for         G#3, B3, E4, F#4, 
+>>>> name trouble: 'E7#5/G#         ', 'E7(#5)          ' for         G#3, C4, D4, E4, 
+>>>> name trouble: 'Dm7(b5)         ', 'Fm6             ' for         G#3, C4, D4, F4, 
+>>>> name trouble: 'Fm6             ', 'G#6(b5)         ' for         G#3, C4, D4, F4, 
+>>>> name trouble: 'D7(b5)          ', 'G#7(b5)         ' for         G#3, C4, D4, F#4, 
+>>>> name trouble: 'Fm9             ', 'G#maj7(13)      ' for         G#3, C4, D#4, F4, G4, 
+>>>> name trouble: 'Fm7             ', 'G#6             ' for         G#3, C4, D#4, F4, 
+>>>> name trouble: 'Cdim7           ', 'G#7             ' for         G#3, C4, D#4, F#4, 
+>>>> name trouble: 'Fm(maj7)        ', 'G#aug6          ' for         G#3, C4, E4, F4, 
+>>>> name trouble: 'G#7#5           ', 'G#7(#5)         ' for         G#3, C4, E4, F#4, 
+>>>> name trouble: 'Caug6           ', 'Caug6/G#        ' for         G#3, C4, E4, A4, 
+>>>> name trouble: 'Caug            ', 'Eaug            ' for         G#3, C4, E4, 
+>>>> name trouble: 'Eaug            ', 'G#aug           ' for         G#3, C4, E4, 
+>>>> name trouble: 'C#maj7(9)       ', 'G#6(add4)       ' for         G#3, C#4, D#4, F4, C5, 
+>>>> name trouble: 'C#(add2)        ', 'C#(add9)        ' for         G#3, C#4, D#4, F4, 
+>>>> name trouble: 'C#(add9)        ', 'Fm7(#5)         ' for         G#3, C#4, D#4, F4, 
+>>>> name trouble: 'C#sus2          ', 'G#sus4          ' for         G#3, C#4, D#4, 
+>>>> name trouble: 'C#sus4          ', 'F#sus2          ' for         G#3, C#4, F#4, 
+>>>> name trouble: 'A6(add9)        ', 'F#m7sus4        ' for         A3, B3, C#4, E4, F#4, 
+>>>> name trouble: 'Amaj7(9)        ', 'E6(add4)        ' for         A3, B3, C#4, E4, G#4, 
+>>>> name trouble: 'A(add2)         ', 'A(add9)         ' for         A3, B3, C#4, E4, 
+>>>> name trouble: 'A(add9)         ', 'C#m7(#5)        ' for         A3, B3, C#4, E4, 
+>>>> name trouble: 'A6(add9)        ', 'Bm7sus4         ' for         A3, B3, D4, E4, F#4, 
+>>>> name trouble: 'Bm7sus4         ', 'D6(add9)        ' for         A3, B3, D4, E4, F#4, 
+>>>> name trouble: 'Em7sus4         ', 'G6(add9)        ' for         A3, B3, D4, E4, G4, 
+>>>> name trouble: 'Bm7(b5)         ', 'Dm6             ' for         A3, B3, D4, F4, 
+>>>> name trouble: 'Dm6             ', 'Dm6/A           ' for         A3, B3, D4, F4, 
+>>>> name trouble: 'Dm6/A           ', 'F6(b5)          ' for         A3, B3, D4, F4, 
+>>>> name trouble: 'Bm9             ', 'Dmaj7(13)       ' for         A3, B3, D4, F#4, C#5, 
+>>>> name trouble: 'Bm7             ', 'D6              ' for         A3, B3, D4, F#4, 
+>>>> name trouble: 'D6              ', 'D6/A            ' for         A3, B3, D4, F#4, 
+>>>> name trouble: 'Bm7(#5)         ', 'G(add2)         ' for         A3, B3, D4, G4, 
+>>>> name trouble: 'G(add2)         ', 'G(add9)         ' for         A3, B3, D4, G4, 
+>>>> name trouble: 'B7(b5)          ', 'F7(b5)          ' for         A3, B3, D#4, F4, 
+>>>> name trouble: 'B7(13)          ', 'G#m7(b9)        ' for         A3, B3, D#4, F#4, G#4, 
+>>>> name trouble: 'Asus2           ', 'Esus4           ' for         A3, B3, E4, 
+>>>> name trouble: 'Dm9             ', 'Fmaj7(13)       ' for         A3, C4, D4, E4, F4, 
+>>>> name trouble: 'Am7sus4         ', 'C6(add9)        ' for         A3, C4, D4, E4, G4, 
+>>>> name trouble: 'Dm7sus4         ', 'F6(add9)        ' for         A3, C4, D4, F4, G4, 
+>>>> name trouble: 'Dm7             ', 'F6              ' for         A3, C4, D4, F4, 
+>>>> name trouble: 'Bm7(b9)         ', 'D7(13)          ' for         A3, C4, D4, F#4, B4, 
+>>>> name trouble: 'F7              ', 'F7/A            ' for         A3, C4, D#4, F4, 
+>>>> name trouble: 'A#7(b9)         ', 'B7(b9)          ' for         A3, C4, D#4, F#4, B4, 
+>>>> name trouble: 'Adim7           ', 'Cdim7           ' for         A3, C4, D#4, F#4, 
+>>>> name trouble: 'Cdim7           ', 'D#dim7          ' for         A3, C4, D#4, F#4, 
+>>>> name trouble: 'D#dim7          ', 'F#dim7          ' for         A3, C4, D#4, F#4, 
+>>>> name trouble: 'Am7(b5)         ', 'Cm6             ' for         A3, C4, D#4, G4, 
+>>>> name trouble: 'Cm6             ', 'D#6(b5)         ' for         A3, C4, D#4, G4, 
+>>>> name trouble: 'C6/11/A         ', 'Fmaj7           ' for         A3, C4, E4, F4, 
+>>>> name trouble: 'Am6             ', 'C6(b5)          ' for         A3, C4, E4, F#4, 
+>>>> name trouble: 'C6(b5)          ', 'F#m7(b5)        ' for         A3, C4, E4, F#4, 
+>>>> name trouble: 'Am9             ', 'Cmaj7(13)       ' for         A3, C4, E4, G4, B4, 
+>>>> name trouble: 'Am7             ', 'C6              ' for         A3, C4, E4, G4, 
+>>>> name trouble: 'Am(maj7)        ', 'Am(majj7)       ' for         A3, C4, E4, G#4, 
+>>>> name trouble: 'Am(majj7)       ', 'Caug6/A         ' for         A3, C4, E4, G#4, 
+>>>> name trouble: 'Am7(#5)         ', 'F(add2)         ' for         A3, C4, F4, G4, 
+>>>> name trouble: 'F(add2)         ', 'F(add9)         ' for         A3, C4, F4, G4, 
+>>>> name trouble: 'Dm(maj7)        ', 'Faug6/A         ' for         A3, C#4, D4, F4, 
+>>>> name trouble: 'F7#5/A          ', 'F7(#5)          ' for         A3, C#4, D#4, F4, 
+>>>> name trouble: 'A6(b5)          ', 'D#m7(b5)        ' for         A3, C#4, D#4, F#4, 
+>>>> name trouble: 'D#m7(b5)        ', 'F#m6            ' for         A3, C#4, D#4, F#4, 
+>>>> name trouble: 'A7(b5)          ', 'D#7(b5)         ' for         A3, C#4, D#4, G4, 
+>>>> name trouble: 'Amaj7(13)       ', 'F#m9            ' for         A3, C#4, E4, F#4, G#4, 
+>>>> name trouble: 'A6              ', 'F#m7            ' for         A3, C#4, E4, F#4, 
+>>>> name trouble: 'A7#5            ', 'A7(#5)          ' for         A3, C#4, F4, G4, 
+>>>> name trouble: 'C#aug6          ', 'C#aug6/A        ' for         A3, C#4, F4, A#4, 
+>>>> name trouble: 'Aaug            ', 'C#aug           ' for         A3, C#4, F4, 
+>>>> name trouble: 'C#aug           ', 'Faug            ' for         A3, C#4, F4, 
+>>>> name trouble: 'D(add2)         ', 'D(add9)         ' for         A3, D4, E4, F#4, 
+>>>> name trouble: 'D(add9)         ', 'F#m7(#5)        ' for         A3, D4, E4, F#4, 
+>>>> name trouble: 'Asus4           ', 'Dsus2           ' for         A3, D4, E4, 
+>>>> name trouble: 'Dsus4           ', 'Gsus2           ' for         A3, D4, G4, 
+>>>> name trouble: 'A#6(add9)       ', 'Gm7sus4         ' for         A#3, C4, D4, F4, G4, 
+>>>> name trouble: 'A#maj7(9)       ', 'F6(add4)        ' for         A#3, C4, D4, F4, A4, 
+>>>> name trouble: 'A#(add2)        ', 'A#(add9)        ' for         A#3, C4, D4, F4, 
+>>>> name trouble: 'A#(add9)        ', 'Dm7(#5)         ' for         A#3, C4, D4, F4, 
+>>>> name trouble: 'Cm7sus4         ', 'D#6(add9)       ' for         A#3, C4, D#4, F4, G4, 
+>>>> name trouble: 'Cm7(b5)         ', 'D#m6            ' for         A#3, C4, D#4, F#4, 
+>>>> name trouble: 'D#m6            ', 'D#m6/A#         ' for         A#3, C4, D#4, F#4, 
+>>>> name trouble: 'D#m6/A#         ', 'F#6(b5)         ' for         A#3, C4, D#4, F#4, 
+>>>> name trouble: 'Cm7             ', 'D#6             ' for         A#3, C4, D#4, G4, 
+>>>> name trouble: 'D#6             ', 'D#6/A#          ' for         A#3, C4, D#4, G4, 
+>>>> name trouble: 'C7(b5)          ', 'F#7(b5)         ' for         A#3, C4, E4, F#4, 
+>>>> name trouble: 'Am7(b9)         ', 'C7(13)          ' for         A#3, C4, E4, G4, A4, 
+>>>> name trouble: 'A#sus2          ', 'Fsus4           ' for         A#3, C4, F4, 
+>>>> name trouble: 'D#m7            ', 'F#6             ' for         A#3, C#4, D#4, F#4, 
+>>>> name trouble: 'Cm7(b9)         ', 'D#7(13)         ' for         A#3, C#4, D#4, G4, C5, 
+>>>> name trouble: 'F#7             ', 'F#7/A#          ' for         A#3, C#4, E4, F#4, 
+>>>> name trouble: 'A#dim7          ', 'C#dim7          ' for         A#3, C#4, E4, G4, 
+>>>> name trouble: 'C#dim7          ', 'Edim7           ' for         A#3, C#4, E4, G4, 
+>>>> name trouble: 'Edim7           ', 'Gdim7           ' for         A#3, C#4, E4, G4, 
+>>>> name trouble: 'A#m6            ', 'C#6(b5)         ' for         A#3, C#4, F4, G4, 
+>>>> name trouble: 'C#6(b5)         ', 'Gm7(b5)         ' for         A#3, C#4, F4, G4, 
+>>>> name trouble: 'A#m(maj7)       ', 'C#aug6/A#       ' for         A#3, C#4, F4, A4, 
+>>>> name trouble: 'A#m(maj7)       ', 'C#13/A#         ' for         A#3, C#4, F4, B4, 
+>>>> name trouble: 'F#7#5/A#        ', 'F#7(#5)         ' for         A#3, D4, E4, F#4, 
+>>>> name trouble: 'A#6(b5)         ', 'Em7(b5)         ' for         A#3, D4, E4, G4, 
+>>>> name trouble: 'Em7(b5)         ', 'Gm6             ' for         A#3, D4, E4, G4, 
+>>>> name trouble: 'A#maj7(13)      ', 'Gm9             ' for         A#3, D4, F4, G4, A4, 
+>>>> name trouble: 'A#6             ', 'Gm7             ' for         A#3, D4, F4, G4, 
+>>>> name trouble: 'Daug6           ', 'Daug6/A#        ' for         A#3, D4, F#4, B4, 
+>>>> name trouble: 'A#aug           ', 'Daug            ' for         A#3, D4, F#4, 
+>>>> name trouble: 'Daug            ', 'F#aug           ' for         A#3, D4, F#4, 
+>>>> name trouble: 'Gm              ', 'Gm6             ' for         A#3, D4, G4, 
+>>>> name trouble: 'D#(add2)        ', 'D#(add9)        ' for         A#3, D#4, F4, G4, 
+>>>> name trouble: 'D#(add9)        ', 'Gm7(#5)         ' for         A#3, D#4, F4, G4, 
+>>>> name trouble: 'A#sus4          ', 'D#sus2          ' for         A#3, D#4, F4, 
+>>>> name trouble: 'Bmaj7(9)        ', 'F#6(add4)       ' for         B3, C#4, D#4, F#4, A#4, 
+>>>> name trouble: 'B(add2)         ', 'B(add9)         ' for         B3, C#4, D#4, F#4, 
+>>>> name trouble: 'B(add9)         ', 'D#m7(#5)        ' for         B3, C#4, D#4, F#4, 
+>>>> name trouble: 'C#m7(b5)        ', 'Em6             ' for         B3, C#4, E4, G4, 
+>>>> name trouble: 'Em6             ', 'Em6/B           ' for         B3, C#4, E4, G4, 
+>>>> name trouble: 'Em6/B           ', 'G6(b5)          ' for         B3, C#4, E4, G4, 
+>>>> name trouble: 'C#7(b5)         ', 'G7(b5)          ' for         B3, C#4, F4, G4, 
+>>>> name trouble: 'Bsus2           ', 'F#sus4          ' for         B3, C#4, F#4, 
+>>>> name trouble: 'Em7             ', 'G6              ' for         B3, D4, E4, G4, 
+>>>> name trouble: 'G7              ', 'G7/B            ' for         B3, D4, F4, G4, 
+>>>> name trouble: 'Bm(maj7)        ', 'Daug6/B         ' for         B3, D4, F#4, A#4, 
+>>>> name trouble: 'G7#5/B          ', 'G7(#5)          ' for         B3, D#4, F4, G4, 
+>>>> name trouble: 'Baug6           ', 'Bmaj7(#5)       ' for         B3, D#4, G4, G#4, 
+>>>> name trouble: 'D#aug6          ', 'D#aug6/B        ' for         B3, D#4, G4, C5, 
+>>>> name trouble: 'Baug            ', 'D#(aug)         ' for         B3, D#4, G4, 
+>>>> name trouble: 'D#(aug)         ', 'D#aug           ' for         B3, D#4, G4, 
+>>>> name trouble: 'D#aug           ', 'Gaug            ' for         B3, D#4, G4, 
+>>>> name trouble: 'Bsus4           ', 'Esus2           ' for         B3, E4, F#4, 
+>>>> name trouble: 'C(add2)         ', 'C(add9)         ' for         C4, D4, E4, G4, 
+>>>> name trouble: 'C(add9)         ', 'Em7(#5)         ' for         C4, D4, E4, G4, 
+>>>> name trouble: 'Csus2           ', 'Gsus4           ' for         C4, D4, G4, 
+>>>> name trouble: 'G#7             ', 'G#7/C           ' for         C4, D#4, F#4, G#4, 
+>>>> name trouble: 'Cm(maj7)        ', 'D#aug6/C        ' for         C4, D#4, G4, B4, 
+>>>> name trouble: 'Eaug6           ', 'Eaug6/C         ' for         C4, E4, G#4, C#5, 
+>>>> name trouble: 'Eaug            ', 'G#aug           ' for         C4, E4, G#4, 
+>>>> name trouble: 'Csus4           ', 'Fsus2           ' for         C4, F4, G4, 
+>>>> name trouble: 'Faug6           ', 'Faug6/C#        ' for         C#4, F4, A4, D5, 
+190 multiple chord names
+Byzantine B(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Lydian #2 #6 C(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Ultraphrygian Eb(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Hungarian Min E(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Oriental Gb(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Ionian Aug #2 G(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Byzantine M7 Bb(C D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Major Harmonic B(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Major Harmonic B(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Major Harmonic B(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Dorian b5 Db(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Dorian b5 Db(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Dorian b5 Db(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Phrygian b4 Eb(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Phrygian b4 Eb(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Phrygian b4 Eb(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Lydian b3 E(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Lydian b3 E(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Lydian b3 E(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Mixolydian b9 Gb(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Mixolydian b9 Gb(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Mixolydian b9 Gb(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Lydian Aug #2 G(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Lydian Aug #2 G(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Lydian Aug #2 G(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Maj Harmonic 7 Bb(C# D# E F# G A# B )
+>>>> 335 (Bmaj7(#5), B, D#, G, G#, ) off-scale: G#
+Maj Harmonic 7 Bb(C# D# E F# G A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Maj Harmonic 7 Bb(C# D# E F# G A# B )
+>>>> 96 (Bmaj7(add4), B, D#, E, F#, G#, ) off-scale: G#
+Harmonic Min Ab(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Harmonic Min E(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Harmonic Min F(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Harmonic Min G(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Harmonic Min Gb(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Locrian #6 A(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Locrian #6 Ab(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Locrian #6 Bb(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Locrian #6 G(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Locrian #6 Gb(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Ionian #5 A(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Ionian #5 Ab(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Ionian #5 B(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Ionian #5 Bb(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Ionian #5 G(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Romanian Minor A(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Romanian Minor B(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Romanian Minor Bb(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Romanian Minor C(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Romanian Minor Db(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Phrygian Major B(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Phrygian Major C(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Phrygian Major D(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Phrygian Major Db(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Phrygian Major Eb(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Lydian #2 C(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Lydian #2 D(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Lydian #2 Db(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Lydian #2 E(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Lydian #2 Eb(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Harmonic Min 7 E(C C# E F G G# A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+Harmonic Min 7 Eb(C D# E F# G A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+Harmonic Min 7 F(C# D F F# G# A B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+Harmonic Min 7 G(C# D# E G G# A# B )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+Harmonic Min 7 Gb(C D D# F# G A A# )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+Major D(C# D E F# 
+>>>> OOPS F#: 3
+Major D(C# D E F# G 
+>>>> OOPS G: 5
+Melodic Minor Bb(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Dorian b2 C(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Lydian Aug Db(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Lydian Dom Eb(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Hindu F(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Aeolian b5 G(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Super Locrian A(C C# D# F G A A# )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
+Neapolitan Min Bb(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Lydian #6 B(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Mixolydian Aug Db(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Hungarian Gyp Eb(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Locrian Dom F(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Ionian #2 Gb(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Ult locrian bb3 A(C# D# F F# A A# B )
+>>>> 450 (Bmaj7, B, D#, F#, G#, ) off-scale: G#
+Pentatonic Maj A(C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Pentatonic Maj A(C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+Pentatonic Maj A(C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+Pentatonic Maj Ab(C D# F G# A# )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+Pentatonic Maj B(C# D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+Pentatonic Maj Bb(C D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+Pentatonic Maj Bb(C D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+Pentatonic Maj Bb(C D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+Pentatonic Maj Bb(C D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+Pentatonic Maj C(C D E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+Pentatonic Maj C(C D E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+Pentatonic Maj C(C D E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+Pentatonic Maj C(C D E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+Pentatonic Maj C(C D E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+Pentatonic Maj D(D E F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+Pentatonic Maj D(D E F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+Pentatonic Maj D(D E F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+Pentatonic Maj D(D E F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+Pentatonic Maj D(D E F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+Pentatonic Maj Db(C# D# F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+Pentatonic Maj E(C# E F# G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+Pentatonic Maj E(C# E F# G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+Pentatonic Maj E(C# E F# G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Pentatonic Maj E(C# E F# G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+Pentatonic Maj E(C# E F# G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Pentatonic Maj Eb(C D# F G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+Pentatonic Maj Eb(C D# F G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+Pentatonic Maj F(C D F G A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+Pentatonic Maj F(C D F G A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+Pentatonic Maj F(C D F G A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Pentatonic Maj F(C D F G A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+Pentatonic Maj F(C D F G A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+Pentatonic Maj F(C D F G A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Pentatonic Maj G(D E G A B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+Pentatonic Maj G(D E G A B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+Pentatonic Maj Gb(C# D# F# G# A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+Egyptian A(D E G A B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+Egyptian A(D E G A B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+Egyptian Ab(C# D# F# G# A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+Egyptian Ab(C# D# F# G# A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+Egyptian B(C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+Egyptian B(C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+Egyptian B(C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Egyptian Bb(C D# F G# A# )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+Egyptian Bb(C D# F G# A# )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+Egyptian C(C D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+Egyptian C(C D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+Egyptian C(C D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+Egyptian C(C D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+Egyptian D(C D E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+Egyptian D(C D E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+Egyptian D(C D E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+Egyptian D(C D E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+Egyptian Db(C# D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+Egyptian Db(C# D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+Egyptian Db(C# D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+Egyptian Db(C# D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+Egyptian Db(C# D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+Egyptian E(D E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+Egyptian E(D E F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+Egyptian E(D E F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+Egyptian E(D E F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+Egyptian E(D E F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Egyptian Eb(C# D# F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+Egyptian Eb(C# D# F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+Egyptian Eb(C# D# F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+Egyptian Eb(C# D# F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+Egyptian Eb(C# D# F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+Egyptian Eb(C# D# F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Egyptian F(C D# F G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+Egyptian F(C D# F G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+Egyptian G(C D F G A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+Egyptian G(C D F G A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Egyptian G(C D F G A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+Egyptian G(C D F G A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+Egyptian G(C D F G A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Egyptian G(C D F G A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+Egyptian Gb(C# E F# G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+Egyptian Gb(C# E F# G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Egyptian Gb(C# E F# G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+Egyptian Gb(C# E F# G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Egyptian Gb(C# E F# G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+Man Gong A(C D F G A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+Man Gong A(C D F G A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Man Gong A(C D F G A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+Man Gong A(C D F G A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+Man Gong A(C D F G A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Man Gong A(C D F G A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+Man Gong Ab(C# E F# G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+Man Gong Ab(C# E F# G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Man Gong Ab(C# E F# G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+Man Gong Ab(C# E F# G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Man Gong Ab(C# E F# G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+Man Gong B(D E G A B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+Man Gong B(D E G A B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+Man Gong Bb(C# D# F# G# A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+Man Gong Bb(C# D# F# G# A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+Man Gong C(C D# F G# A# )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+Man Gong C(C D# F G# A# )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+Man Gong D(C D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+Man Gong D(C D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+Man Gong D(C D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+Man Gong D(C D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+Man Gong Db(C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+Man Gong Db(C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+Man Gong Db(C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Man Gong E(C D E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+Man Gong E(C D E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+Man Gong E(C D E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+Man Gong E(C D E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Man Gong E(C D E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+Man Gong Eb(C# D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+Man Gong Eb(C# D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+Man Gong Eb(C# D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+Man Gong Eb(C# D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+Man Gong Eb(C# D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+Man Gong Eb(C# D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+Man Gong F(C# D# F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+Man Gong F(C# D# F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+Man Gong F(C# D# F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+Man Gong F(C# D# F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+Man Gong F(C# D# F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+Man Gong F(C# D# F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Man Gong G(C D# F G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+Man Gong G(C D# F G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+Man Gong Gb(D E F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+Man Gong Gb(D E F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+Man Gong Gb(D E F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+Man Gong Gb(D E F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+Man Gong Gb(D E F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+Ritusen Yo A(D E F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+Ritusen Yo A(D E F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+Ritusen Yo A(D E F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+Ritusen Yo A(D E F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+Ritusen Yo Ab(C# D# F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Ritusen Yo B(C# E F# G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Ritusen Yo B(C# E F# G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+Ritusen Yo B(C# E F# G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+Ritusen Yo B(C# E F# G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Ritusen Yo B(C# E F# G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+Ritusen Yo Bb(C D# F G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+Ritusen Yo Bb(C D# F G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+Ritusen Yo C(C D F G A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+Ritusen Yo C(C D F G A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Ritusen Yo C(C D F G A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+Ritusen Yo C(C D F G A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+Ritusen Yo C(C D F G A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Ritusen Yo C(C D F G A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+Ritusen Yo D(D E G A B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+Ritusen Yo D(D E G A B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+Ritusen Yo Db(C# D# F# G# A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+Ritusen Yo E(C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+Ritusen Yo E(C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+Ritusen Yo E(C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+Ritusen Yo Eb(C D# F G# A# )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+Ritusen Yo F(C D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+Ritusen Yo F(C D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+Ritusen Yo F(C D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+Ritusen Yo F(C D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+Ritusen Yo G(C D E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+Ritusen Yo G(C D E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+Ritusen Yo G(C D E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+Ritusen Yo G(C D E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+Ritusen Yo G(C D E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Ritusen Yo Gb(C# D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+Pentatonic Min A(C D E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+Pentatonic Min A(C D E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+Pentatonic Min A(C D E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+Pentatonic Min A(C D E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+Pentatonic Min A(C D E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+Pentatonic Min Ab(C# D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+Pentatonic Min B(D E F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+Pentatonic Min B(D E F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+Pentatonic Min B(D E F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+Pentatonic Min B(D E F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+Pentatonic Min B(D E F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+Pentatonic Min Bb(C# D# F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Pentatonic Min C(C D# F G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+Pentatonic Min C(C D# F G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+Pentatonic Min D(C D F G A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+Pentatonic Min D(C D F G A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Pentatonic Min D(C D F G A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+Pentatonic Min D(C D F G A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+Pentatonic Min D(C D F G A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Pentatonic Min D(C D F G A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+Pentatonic Min Db(C# E F# G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Pentatonic Min Db(C# E F# G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+Pentatonic Min Db(C# E F# G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+Pentatonic Min Db(C# E F# G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Pentatonic Min Db(C# E F# G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+Pentatonic Min E(D E G A B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+Pentatonic Min E(D E G A B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+Pentatonic Min Eb(C# D# F# G# A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+Pentatonic Min F(C D# F G# A# )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+Pentatonic Min F(C D# F G# A# )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+Pentatonic Min G(C D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+Pentatonic Min G(C D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+Pentatonic Min G(C D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+Pentatonic Min G(C D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+Pentatonic Min Gb(C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+Pentatonic Min Gb(C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+Pentatonic Min Gb(C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Iwato Japanese A(D D# G A A# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 290 (F7, A, C, D#, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Iwato Japanese A(D D# G A A# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 418 (C#m7, G#, B, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 319 (E7, G#, B, D, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Iwato Japanese Ab(C# D F# G# A )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+Iwato Japanese B(C E F A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 665 (Fmaj7(9), A, C, E, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 398 (G7, B, D, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Iwato Japanese B(C E F A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 656 (E6(add9), E, G#, B, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 657 (Emaj7(9), E, G#, B, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 349 (F#7, A#, C#, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Iwato Japanese Bb(D# E G# A# B )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Iwato Japanese C(C C# F F# A# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Iwato Japanese C(C C# F F# A# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Iwato Japanese D(C D D# G G# )
+>>>> 31 (Ddim, G#, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 255 (Dm7(b5), G#, C, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 199 (Fm, G#, C, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 262 (Fm6, G#, C, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 288 (Fm7, G#, C, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 296 (G#6, G#, C, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 675 (G#6(add9), G#, A#, C, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 274 (G#6(b5), G#, C, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 18 (A#7, G#, A#, D, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Iwato Japanese D(C D D# G G# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Iwato Japanese Db(C# D F# G B )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Iwato Japanese Db(C# D F# G B )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Iwato Japanese E(D E F A A# )
+>>>> 121 (Edim, A#, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 317 (Em7(b5), A#, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 677 (Fmaj7(9), F, A, C, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 235 (Gm, A#, D, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 323 (Gm6, A#, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 397 (Gm7, A#, D, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 402 (A#6, A#, D, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 659 (A#6(add9), A#, C, D, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 334 (A#6(b5), A#, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 108 (C7, A#, C, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Iwato Japanese E(D E F A A# )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 162 (D#dim, A, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 222 (D#m7(b5), A, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 227 (F#m, A, C#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 229 (F#m6, A, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 348 (F#m7, A, C#, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 353 (A6, A, C#, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 644 (A6(add9), A, B, C#, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 243 (A6(b5), A, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 152 (B7, A, B, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Iwato Japanese Eb(C# D# E G# A )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Iwato Japanese G(C C# F G G# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Iwato Japanese G(C C# F G G# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Chinese A(C# D# E G# A )
+>>>> 353 (A6, A, C#, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 644 (A6(add9), A, B, C#, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 243 (A6(b5), A, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 152 (B7, A, B, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 162 (D#dim, A, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 222 (D#m7(b5), A, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 227 (F#m, A, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 229 (F#m6, A, C#, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 348 (F#m7, A, C#, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Chinese A(C# D# E G# A )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Chinese Ab(C D D# G G# )
+>>>> 296 (G#6, G#, C, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 675 (G#6(add9), G#, A#, C, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 274 (G#6(b5), G#, C, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 18 (A#7, G#, A#, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 31 (Ddim, G#, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 255 (Dm7(b5), G#, C, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 199 (Fm, G#, C, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 262 (Fm6, G#, C, D, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 288 (Fm7, G#, C, D#, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Chinese Ab(C D D# G G# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Chinese Bb(D E F A A# )
+>>>> 402 (A#6, A#, D, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 659 (A#6(add9), A#, C, D, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 334 (A#6(b5), A#, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 108 (C7, A#, C, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 121 (Edim, A#, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 317 (Em7(b5), A#, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 677 (Fmaj7(9), F, A, C, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 235 (Gm, A#, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 323 (Gm6, A#, D, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 397 (Gm7, A#, D, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Chinese Bb(D E F A A# )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Chinese D(C# D F# G# A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 319 (E7, G#, B, D, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 418 (C#m7, G#, B, C#, E, ) off-scale: E
+Chinese D(C# D F# G# A )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Chinese Db(C C# F G G# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Chinese Db(C C# F G G# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Chinese E(D# E G# A# B )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 656 (E6(add9), E, G#, B, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 657 (Emaj7(9), E, G#, B, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 349 (F#7, A#, C#, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Chinese E(D# E G# A# B )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Chinese Eb(D D# G A A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 290 (F7, A, C, D#, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Chinese Eb(D D# G A A# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Chinese F(C E F A B )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 665 (Fmaj7(9), A, C, E, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 398 (G7, B, D, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Chinese F(C E F A B )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Chinese G(C# D F# G B )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Chinese G(C# D F# G B )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+Chinese Gb(C C# F F# A# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Chinese Gb(C C# F F# A# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Hirajoshi A(C E F A B )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 665 (Fmaj7(9), A, C, E, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 398 (G7, B, D, F, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Hirajoshi A(C E F A B )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Hirajoshi Ab(D# E G# A# B )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 656 (E6(add9), E, G#, B, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 657 (Emaj7(9), E, G#, B, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 349 (F#7, A#, C#, E, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Hirajoshi Ab(D# E G# A# B )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Hirajoshi B(C# D F# G B )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Hirajoshi B(C# D F# G B )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Hirajoshi Bb(C C# F F# A# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Hirajoshi Bb(C C# F F# A# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Hirajoshi C(C D D# G G# )
+>>>> 31 (Ddim, G#, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 255 (Dm7(b5), G#, C, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 199 (Fm, G#, C, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 262 (Fm6, G#, C, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 288 (Fm7, G#, C, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 296 (G#6, G#, C, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 675 (G#6(add9), G#, A#, C, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 274 (G#6(b5), G#, C, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 18 (A#7, G#, A#, D, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Hirajoshi C(C D D# G G# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+Hirajoshi D(D E F A A# )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 121 (Edim, A#, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 317 (Em7(b5), A#, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 533 (F(add2), A, C, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 662 (F6(add9), A, C, D, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 677 (Fmaj7(9), F, A, C, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 235 (Gm, A#, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 323 (Gm6, A#, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 397 (Gm7, A#, D, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 486 (G7sus4, C, D, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 535 (Am7(#5), A, C, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 402 (A#6, A#, D, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 659 (A#6(add9), A#, C, D, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 334 (A#6(b5), A#, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 108 (C7, A#, C, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+Hirajoshi D(D E F A A# )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+Hirajoshi Db(C# D# E G# A )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 162 (D#dim, A, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 222 (D#m7(b5), A, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 509 (E(add2), G#, B, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 227 (F#m, A, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 229 (F#m6, A, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 348 (F#m7, A, C#, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 459 (F#7sus4, B, C#, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 514 (G#m7(#5), G#, B, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 353 (A6, A, C#, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 644 (A6(add9), A, B, C#, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 243 (A6(b5), A, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 152 (B7, A, B, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+Hirajoshi Db(C# D# E G# A )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+Hirajoshi F(C C# F G G# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Hirajoshi F(C C# F G G# )
+>>>> 446 (D#7sus4, G#, A#, C#, D#, ) off-scale: D#
+Hirajoshi G(D D# G A A# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 261 (F, A, C, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 290 (F7, A, C, D#, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Hirajoshi G(D D# G A A# )
+>>>> 473 (F7sus4, A#, C, D#, F, ) off-scale: F
+Hirajoshi Gb(C# D F# G# A )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 418 (C#m7, G#, B, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 319 (E7, G#, B, D, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Hirajoshi Gb(C# D F# G# A )
+>>>> 430 (E7sus4, A, B, D, E, ) off-scale: E
+In Sen Japan A(D E G A A# )
+>>>> 1 (Aaug, A, C#, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 606 (A(add4), A, D, E, C#, ) off-scale: C#
+In Sen Japan A(D E G A A# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 25 (C#aug, A, C#, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 32 (Dm(maj7), A, D, F, C#, ) off-scale: C#
+In Sen Japan A(D E G A A# )
+>>>> 603 (Gm13/E, E, G, A#, F, ) off-scale: F
+In Sen Japan A(D E G A A# )
+>>>> 41 (Faug, A, C#, F, ) off-scale: F
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 49 (G#aug, G#, C, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 50 (G#(add4), G#, C#, D#, C, ) off-scale: C
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 615 (G#7sus4(10), G#, C#, D#, F#, C, ) off-scale: C
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 69 (Caug, G#, C, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 77 (C#m(maj7), G#, C#, E, C, ) off-scale: C
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 610 (F#m13/D#, D#, F#, A, E, ) off-scale: E
+In Sen Japan Ab(C# D# F# G# A )
+>>>> 85 (Eaug, G#, C, E, ) off-scale: E
+In Sen Japan B(C E F# A B )
+>>>> 93 (Baug, B, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 550 (B7(#5), A, B, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 68 (C, C, E, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 70 (Cm6, A, C, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 113 (D#aug, B, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 82 (D#(b5), A, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 83 (D#6(b5), A, C, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 122 (Em(maj7), E, B, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 617 (G6/9/E, E, G, A, A#, ) off-scale: A#
+In Sen Japan B(C E F# A B )
+>>>> 618 (Am13/F#, F#, A, C, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 131 (Gaug, B, D#, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+In Sen Japan B(C E F# A B )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+In Sen Japan B(C E F# A B )
+>>>> 60 (Am7(b5), A, C, D#, G, ) off-scale: G
+In Sen Japan Bb(D# F G# A# B )
+>>>> 138 (A#aug, A#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 562 (A#7(#5), G#, A#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 626 (A#7sus4(10), G#, A#, D#, F, D, ) off-scale: D
+In Sen Japan Bb(D# F G# A# B )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 377 (Bm6, G#, B, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 156 (Daug, A#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 253 (D(b5), G#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 386 (D6(b5), G#, B, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 163 (D#m(maj7), D#, A#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 624 (G#m13/F, F, G#, B, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 171 (F#aug, A#, D, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+In Sen Japan Bb(D# F G# A# B )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+In Sen Japan Bb(D# F G# A# B )
+>>>> 372 (G#m7(b5), G#, B, D, F#, ) off-scale: F#
+In Sen Japan C(C C# F G A# )
+>>>> 69 (Caug, G#, C, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 440 (C7(#5), G#, A#, C, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 85 (Eaug, G#, C, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 289 (Fm(maj7), F, G#, C, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 628 (G#6/9/F, F, G#, A#, B, ) off-scale: B
+In Sen Japan C(C C# F G A# )
+>>>> 629 (A#m13/G, G, A#, C#, G#, ) off-scale: G#
+In Sen Japan C(C C# F G A# )
+>>>> 49 (G#aug, G#, C, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+In Sen Japan C(C C# F G A# )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+In Sen Japan D(C D D# G A )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 156 (Daug, A#, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 215 (D(add4), G, A, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 465 (D7(b9), D#, A, C, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 467 (D7(#5), A#, C, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 637 (D7sus4(10), G, A, C, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 162 (D#dim, A, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 468 (D#dim7, A, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 163 (D#m(maj7), D#, A#, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 171 (F#aug, A#, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 474 (F#dim7, A, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 588 (Gm(maj7), G, A#, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 633 (A#6/9/G, G, A#, C, C#, ) off-scale: C#
+In Sen Japan D(C D D# G A )
+>>>> 475 (Adim7, A, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 634 (Cm13/A, A, C, D#, A#, ) off-scale: A#
+In Sen Japan D(C D D# G A )
+>>>> 138 (A#aug, A#, D, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 462 (Cdim7, A, C, D#, F#, ) off-scale: F#
+In Sen Japan D(C D D# G A )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+In Sen Japan Db(C# D F# G# B )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 25 (C#aug, A, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 249 (C#(add4), F#, G#, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 423 (C#7(#5), A, B, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 642 (C#7sus4(10), F#, G#, B, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 31 (Ddim, G#, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 424 (Ddim7, G#, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 41 (Faug, A, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 431 (Fdim7, G#, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 268 (F#m(maj7), F#, A, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 639 (A6/9/F#, F#, A, B, C, ) off-scale: C
+In Sen Japan Db(C# D F# G# B )
+>>>> 432 (G#dim7, G#, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 640 (Bm13/G#, G#, B, D, A, ) off-scale: A
+In Sen Japan Db(C# D F# G# B )
+>>>> 1 (Aaug, A, C#, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 417 (Bdim7, G#, B, D, F, ) off-scale: F
+In Sen Japan Db(C# D F# G# B )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+In Sen Japan E(D E F A B )
+>>>> 571 (E7sus4(10), A, B, D, E, G#, ) off-scale: G#
+In Sen Japan E(D E F A B )
+>>>> 62 (Am(maj7), A, C, E, G#, ) off-scale: G#
+In Sen Japan E(D E F A B )
+>>>> 569 (Dm13/B, B, D, F, C, ) off-scale: C
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 113 (D#aug, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 311 (D#(add4), G#, A#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 443 (D#7(b9), E, A#, C#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 454 (D#7(#5), B, C#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 579 (D#7sus4(10), G#, A#, C#, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 121 (Edim, A#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 447 (Edim7, A#, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 122 (Em(maj7), E, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 131 (Gaug, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 448 (Gdim7, A#, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 329 (G#m(maj7), G#, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 573 (B6/9/G#, G#, B, C#, D, ) off-scale: D
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 434 (A#dim7, A#, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 574 (C#m13/A#, A#, C#, E, B, ) off-scale: B
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 93 (Baug, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 575 (Bmaj7(#5), A#, B, D#, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 186 (C#m7, G#, C#, E, B, ) off-scale: B
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 441 (C#dim7, A#, C#, E, G, ) off-scale: G
+In Sen Japan Eb(C# D# E G# A# )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+In Sen Japan F(C D# F F# A# )
+>>>> 341 (F(add4), A#, C, F, A, ) off-scale: A
+In Sen Japan F(C D# F F# A# )
+>>>> 592 (F7sus4(10), A#, C, D#, F, A, ) off-scale: A
+In Sen Japan F(C D# F F# A# )
+>>>> 16 (A#m(maj7), A#, C#, F, A, ) off-scale: A
+In Sen Japan F(C D# F F# A# )
+>>>> 590 (D#m13/C, C, D#, F#, C#, ) off-scale: C#
+In Sen Japan G(C D F G G# )
+>>>> 544 (G(add4), C, D, G, B, ) off-scale: B
+In Sen Japan G(C D F G G# )
+>>>> 598 (G7sus4(10), C, D, F, G, B, ) off-scale: B
+In Sen Japan G(C D F G G# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+In Sen Japan G(C D F G G# )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+In Sen Japan G(C D F G G# )
+>>>> 599 (G#dim, G#, D, B, ) off-scale: B
+In Sen Japan G(C D F G G# )
+>>>> 601 (G#dim7, G#, D, F, B, ) off-scale: B
+In Sen Japan G(C D F G G# )
+>>>> 106 (Cm(maj7), C, D#, G, B, ) off-scale: B
+In Sen Japan G(C D F G G# )
+>>>> 596 (Fm13/D, D, F, G#, D#, ) off-scale: D#
+In Sen Japan Gb(C# E F# G B )
+>>>> 392 (F#(add4), B, C#, F#, A#, ) off-scale: A#
+In Sen Japan Gb(C# E F# G B )
+>>>> 585 (F#7sus4(10), B, C#, E, F#, A#, ) off-scale: A#
+In Sen Japan Gb(C# E F# G B )
+>>>> 150 (Bm(maj7), B, D, F#, A#, ) off-scale: A#
+In Sen Japan Gb(C# E F# G B )
+>>>> 582 (Em13/C#, C#, E, G, D, ) off-scale: D
+12 Bar Blues A(C D D# E G A )
+>>>> 620 (Am9, A, C, E, G, B, ) off-scale: B
+12 Bar Blues A(C D D# E G A )
+>>>> 145 (Bdim, B, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 148 (Bm7(b5), A, B, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 102 (Cmaj7, C, E, G, B, ) off-scale: B
+12 Bar Blues A(C D D# E G A )
+>>>> 664 (Cmaj7(9), C, D, E, G, B, ) off-scale: B
+12 Bar Blues A(C D D# E G A )
+>>>> 30 (Dm, A, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 157 (Dm6, A, B, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 256 (Dm7, A, C, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 570 (Dm9, A, C, D, E, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 261 (F, A, C, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 168 (F(b5), A, B, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 263 (F6, A, C, D, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 285 (Fmaj7, A, C, E, F, ) off-scale: F
+12 Bar Blues A(C D D# E G A )
+>>>> 169 (F6(b5), A, B, D, F, ) off-scale: F
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 625 (G#m9, G#, B, D#, F#, A#, ) off-scale: A#
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 10 (A#dim, A#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 14 (A#m7(b5), G#, A#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 95 (Bmaj7, B, D#, F#, A#, ) off-scale: A#
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 655 (Bmaj7(9), B, C#, D#, F#, A#, ) off-scale: A#
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 21 (C#m, G#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 23 (C#m6, G#, A#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 576 (C#m6(add9), E, G#, A#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 191 (E, G#, B, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 38 (E(b5), G#, A#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 194 (E6, G#, B, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 39 (E6(b5), G#, A#, C#, E, ) off-scale: E
+12 Bar Blues Ab(C# D D# F# G# B )
+>>>> 658 (F#6(add9), G#, C#, D#, F#, A#, ) off-scale: A#
+12 Bar Blues B(D E F F# A B )
+>>>> 641 (Bm9, A, B, D, F#, C#, ) off-scale: C#
+12 Bar Blues B(D E F F# A B )
+>>>> 547 (Bm7(#5), A, B, D, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 76 (C#dim, C#, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 185 (C#m7(b5), B, C#, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 216 (Dmaj7, A, D, F#, C#, ) off-scale: C#
+12 Bar Blues B(D E F F# A B )
+>>>> 647 (Dmaj7(9), A, D, E, F#, C#, ) off-scale: C#
+12 Bar Blues B(D E F F# A B )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 120 (Em, B, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 193 (Em6, B, C#, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 318 (Em7, B, D, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 322 (G, B, D, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 207 (G(b5), B, C#, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 543 (G(add2), A, B, D, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 324 (G6, B, D, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 666 (G6(add9), A, B, D, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 208 (G6(b5), B, C#, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 64 (A7, A, C#, E, G, ) off-scale: G
+12 Bar Blues B(D E F F# A B )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 630 (A#m9, G#, A#, C#, F, C, ) off-scale: C
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 558 (A#m7(#5), G#, A#, C#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 100 (Cdim, C, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 104 (Cm7(b5), A#, C, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 183 (C#maj7, G#, C#, F, C, ) off-scale: C
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 652 (C#maj7(9), G#, C#, D#, F, C, ) off-scale: C
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 111 (D#m, A#, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 114 (D#m6, A#, C, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 223 (D#m7, A#, C#, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 228 (F#, A#, C#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 128 (F#(b5), A#, C, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 556 (F#(add2), G#, A#, C#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 230 (F#6, A#, C#, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 669 (F#6(add9), G#, A#, C#, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 129 (F#6(b5), A#, C, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 374 (G#7, G#, C, D#, F#, ) off-scale: F#
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 649 (G#6(add9), G#, A#, D#, F, C, ) off-scale: C
+12 Bar Blues Bb(C# D# E F G# A# )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+12 Bar Blues C(C D# F F# G A# )
+>>>> 636 (Cm9, A#, C, D#, G, D, ) off-scale: D
+12 Bar Blues C(C D# F F# G A# )
+>>>> 273 (G#(b5), G#, C, D, ) off-scale: D
+12 Bar Blues D(C D F G G# A )
+>>>> 678 (Dm9, F, A, C, D, E, ) off-scale: E
+12 Bar Blues D(C D F G G# A )
+>>>> 37 (Dsus2, A, D, E, ) off-scale: E
+12 Bar Blues D(C D F G G# A )
+>>>> 342 (Fmaj7, F, A, C, E, ) off-scale: E
+12 Bar Blues D(C D F G G# A )
+>>>> 56 (Am, A, C, E, ) off-scale: E
+12 Bar Blues D(C D F G G# A )
+>>>> 7 (Asus4, A, D, E, ) off-scale: E
+12 Bar Blues D(C D F G G# A )
+>>>> 11 (A#(b5), A#, D, E, ) off-scale: E
+12 Bar Blues Db(C# E F# G G# B )
+>>>> 81 (C#sus2, G#, C#, D#, ) off-scale: D#
+12 Bar Blues Db(C# E F# G G# B )
+>>>> 282 (Emaj7, E, G#, B, D#, ) off-scale: D#
+12 Bar Blues Db(C# E F# G G# B )
+>>>> 293 (G#m, G#, B, D#, ) off-scale: D#
+12 Bar Blues Db(C# E F# G G# B )
+>>>> 55 (G#sus4, G#, C#, D#, ) off-scale: D#
+12 Bar Blues Db(C# E F# G G# B )
+>>>> 58 (A(b5), A, C#, D#, ) off-scale: D#
+12 Bar Blues E(D E G A A# B )
+>>>> 583 (Em9, G, B, D, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 127 (Esus2, B, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 267 (F#dim, A, C, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 347 (F#m7(b5), A, C, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 490 (F#m7(#5), A, D, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 368 (Gmaj7, G, B, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 667 (Gmaj7(9), G, A, B, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 352 (Am6, A, C, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 144 (Bm, B, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 149 (Bm7, A, B, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 99 (Bsus4, B, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 523 (B7sus4, A, B, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 101 (C(b5), C, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 361 (C6(b5), A, C, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 155 (D, A, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 487 (D(add2), A, D, E, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 158 (D6, A, B, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 258 (D7, A, C, D, F#, ) off-scale: F#
+12 Bar Blues E(D E G A A# B )
+>>>> 646 (D6(add9), A, B, D, E, F#, ) off-scale: F#
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 591 (D#m9, F#, A#, C#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 167 (D#sus2, A#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 200 (Fdim, G#, B, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 287 (Fm7(b5), G#, B, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 501 (Fm7(#5), G#, C#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 345 (F#maj7, F#, A#, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 295 (G#m6, G#, B, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 9 (A#m, A#, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 15 (A#m7, G#, A#, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 143 (A#sus4, A#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 532 (A#7sus4, G#, A#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 146 (B(b5), B, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 305 (B6(b5), G#, B, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 22 (C#, G#, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 499 (C#(add2), G#, C#, D#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 24 (C#6, G#, A#, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 188 (C#7, G#, B, C#, F, ) off-scale: F
+12 Bar Blues Eb(C# D# F# G# A A# )
+>>>> 651 (C#6(add9), G#, A#, C#, D#, F, ) off-scale: F
+12 Bar Blues F(C D# F G# A# B )
+>>>> 597 (Fm9, G#, C, D#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 206 (Fsus2, C, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 236 (Gdim, A#, C#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 396 (Gm7(b5), A#, C#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 526 (Gm7(#5), A#, D#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 51 (G#maj7, G#, C, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 650 (G#maj7(9), G#, A#, C, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 401 (A#m6, A#, C#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 67 (Cm, C, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 105 (Cm7, A#, C, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 181 (Csus4, C, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 542 (C7sus4, A#, C, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 182 (C#(b5), C#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 409 (C#6(b5), A#, C#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 112 (D#, A#, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 524 (D#(add2), A#, D#, F, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 115 (D#6, A#, C, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 224 (D#7, A#, C#, D#, G, ) off-scale: G
+12 Bar Blues F(C D# F G# A# B )
+>>>> 653 (D#6(add9), A#, C, D#, F, G, ) off-scale: G
+12 Bar Blues G(C C# D F G A# )
+>>>> 605 (Gm9, A#, D, F, G, A, ) off-scale: A
+12 Bar Blues G(C C# D F G A# )
+>>>> 57 (Adim, A, C, D#, ) off-scale: D#
+12 Bar Blues G(C C# D F G A# )
+>>>> 12 (A#maj7, A#, D, F, A, ) off-scale: A
+12 Bar Blues G(C C# D F G A# )
+>>>> 660 (A#maj7(9), A#, C, D, F, A, ) off-scale: A
+12 Bar Blues Gb(C C# E F# A B )
+>>>> 611 (F#m9, A, C#, E, F#, G#, ) off-scale: G#
+12 Bar Blues Gb(C C# E F# A B )
+>>>> 328 (G#dim, G#, B, D, ) off-scale: D
+12 Bar Blues Gb(C C# E F# A B )
+>>>> 3 (Amaj7, A, C#, E, G#, ) off-scale: G#
+Prometheus A(C# D# F# G A B )
+>>>> 0 (A, A, C#, E, ) off-scale: E
+Prometheus A(C# D# F# G A B )
+>>>> 415 (A(add2), A, B, C#, E, ) off-scale: E
+Prometheus A(C# D# F# G A B )
+>>>> 734 (A(add9), A, B, C#, E, ) off-scale: E
+Prometheus A(C# D# F# G A B )
+>>>> 304 (Asus2, A, B, E, ) off-scale: E
+Prometheus A(C# D# F# G A B )
+>>>> 420 (C#m7(#5), A, B, C#, E, ) off-scale: E
+Prometheus A(C# D# F# G A B )
+>>>> 284 (Esus4, A, B, E, ) off-scale: E
+Prometheus Ab(C D F F# G# A# )
+>>>> 48 (G#, G#, C, D#, ) off-scale: D#
+Prometheus Ab(C D F F# G# A# )
+>>>> 433 (G#(add2), G#, A#, C, D#, ) off-scale: D#
+Prometheus Ab(C D F F# G# A# )
+>>>> 735 (G#(add9), G#, A#, C, D#, ) off-scale: D#
+Prometheus Ab(C D F F# G# A# )
+>>>> 333 (G#sus2, G#, A#, D#, ) off-scale: D#
+Prometheus Ab(C D F F# G# A# )
+>>>> 436 (Cm7(#5), G#, A#, C, D#, ) off-scale: D#
+Prometheus Ab(C D F F# G# A# )
+>>>> 314 (D#sus4, G#, A#, D#, ) off-scale: D#
+Prometheus B(C# D# F G# A B )
+>>>> 92 (B, B, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 449 (B(add2), B, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 378 (B6, G#, B, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 152 (B7, A, B, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 736 (B(add9), B, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 654 (B6(add9), G#, B, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 689 (B9, A, B, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 408 (Bsus2, B, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 252 (C#sus4, G#, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 566 (C#7sus4, G#, B, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 162 (D#dim, A, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 222 (D#m7(b5), A, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 452 (D#m7(#5), B, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 227 (F#m, A, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 229 (F#m6, A, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 272 (F#sus2, G#, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 394 (F#sus4, B, C#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 373 (G#m7, G#, B, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 508 (G#7sus4, G#, C#, D#, F#, ) off-scale: F#
+Prometheus B(C# D# F G# A B )
+>>>> 243 (A6(b5), A, C#, D#, F#, ) off-scale: F#
+Prometheus Bb(C D E G G# A# )
+>>>> 8 (A#, A#, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 461 (A#(add2), A#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 18 (A#7, G#, A#, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 737 (A#(add9), A#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 692 (A#9, G#, A#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 360 (A#sus2, A#, C, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 31 (Ddim, G#, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 255 (Dm7(b5), G#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 464 (Dm7(#5), A#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 199 (Fm, G#, C, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 262 (Fm6, G#, C, D, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 344 (Fsus4, A#, C, F, ) off-scale: F
+Prometheus Bb(C D E G G# A# )
+>>>> 274 (G#6(b5), G#, C, D, F, ) off-scale: F
+Prometheus C(C D E F# A A# )
+>>>> 68 (C, C, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 476 (C(add2), C, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 71 (C6, A, C, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 108 (C7, A#, C, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 739 (C(add9), C, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 663 (C6(add9), A, C, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 695 (C9, A#, C, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 385 (Csus2, C, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 219 (Dsus4, A, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 555 (D7sus4, A, C, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 121 (Edim, A#, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 317 (Em7(b5), A#, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 479 (Em7(#5), C, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 235 (Gm, A#, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 323 (Gm6, A#, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 242 (Gsus2, A, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 370 (Gsus4, C, D, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 61 (Am7, A, C, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 497 (A7sus4, A, D, E, G, ) off-scale: G
+Prometheus C(C D E F# A A# )
+>>>> 334 (A#6(b5), A#, D, E, G, ) off-scale: G
+Prometheus Db(C# D# F G A# B )
+>>>> 578 (C#sus2, C#, D#, G#, ) off-scale: G#
+Prometheus E(C# D E F# G# A# )
+>>>> 584 (Esus2, E, F#, B, ) off-scale: B
+Prometheus Eb(C C# D# F G A )
+>>>> 729 (A#m(maj7), A#, C#, F, B, ) off-scale: B
