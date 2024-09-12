@@ -40,7 +40,7 @@ my @groups;
 struct( Group => {
     name => '$',
     offset => '$',
-    scales => '$'
+    scales => '$' 
 });
 
 # - Scales
@@ -96,8 +96,8 @@ while(read(FD, my $block, $blocksize)) {
     if ($mode == 0 || $mode == 1) { # Categories & Groups
       if ($#d == 2) {  # a valid set?
         # work on category data
-        push @categories, Category->new( name=>$d[0], offset=>$indexoffset, slots=>$d[2]) if ($mode == 0);
-        push @groups, Group->new( name=>$d[0], offset=>$indexoffset, slots=>$d[2] ) if ($mode == 1);
+        push @categories, Category->new( name=>$d[0], offset=>$indexoffset, groups=>$d[2]) if ($mode == 0);
+        push @groups, Group->new( name=>$d[0], offset=>$indexoffset, scales=>$d[2] ) if ($mode == 1);
         $indexoffset += $d[2];
       }
     } elsif ($mode == 2) { # Scales
@@ -133,7 +133,7 @@ while(read(FD, my $block, $blocksize)) {
         }
         if ($found_chord < 0) { # nothing found
           $found_chord = $#chords + 1;
-          push @chords, Chord->new( name => $key, notes => $n, warning => 0, id => $found_chord );
+          push @chords, Chord->new( name => $key, notes => $n, warning => '', id => $found_chord );
         }
         push @{$scales[$scale]->chords}, $found_chord . ';' . $c[1];
       } else {
@@ -186,7 +186,11 @@ foreach my $c (sort { $a->notes cmp $b->notes } @chords) {
     if ($last_n ne $n) {
       my $out = sprintf(">>>> name trouble: '%-16s', '%-16s' for ", $last_n, $n);
       print ERRORLIST $out . "        " . &notenames($k) . "\n";
-      $c->warning(1);
+      if ($c->warning ne '') {
+        $c->warning($c->warning . ", $last_n");
+      } else {
+        $c->warning($c->warning . "check $last_n");
+      }
       $duplicates++;
     } 
   }
@@ -268,7 +272,8 @@ foreach my $cscale (@scales) {
       $n %= 12;
       if ($noteset[$n] <= 0) {
         printf(ERRORLIST "$errinfo\n>>>> Chord %d (%s, %s), off-scale note: %s\n", $id, $cname, &strippednotes($keys), $notes[$n]);
-        $chords[$id]->warning($chords[$id]->warning + 1);
+        # $chords[$id]->warning($chords[$id]->warning . "off scale: $notes[$n] ");
+        $cchord .= ';' . $notes[$n];
       }
     }
   }
@@ -278,12 +283,133 @@ foreach my $cscale (@scales) {
 print ERRORLIST "\nChords requiring a check\n";
 print ERRORLIST "========================\n";
 foreach my $c (@chords) {
-  if ($c->warning) {
+  if ($c->warning ne '') {
     printf(ERRORLIST "%4d %-12s (%s)\n", $c->id, $c->name, &notenames($c->notes));
   }
 }
 
 close(ERRORLIST);
+
+# Put out the data as JSON
+open(JSONFILE, '>', 'scales.json') or die "Cannot write to 'scales.json' - $!\n";
+
+my $indentwidth = 2;
+my $indent = 0;
+printf(JSONFILE "{\n");
+# Chords are the first section
+$indent += $indentwidth;
+printf(JSONFILE ' ' x $indent . "\"Chords\" : [\n");
+
+my $hadchord = 0;
+$indent += $indentwidth;
+foreach my $c (@chords) {
+  printf(JSONFILE ",\n") if $hadchord;
+  printf(JSONFILE ' ' x $indent . "{ ");
+  printf(JSONFILE "\"name\": %-16s, ", '"' . $c->name . '"');
+  # Separate notes, get the plain note names
+  printf(JSONFILE "\"notes\": [");
+  my @d = $c->notes=~/(\d\d)/g;
+  my $hadone = 0;
+  foreach my $n (@d) {
+    printf(JSONFILE ", ") if $hadone;
+    printf(JSONFILE "\"%s\"", $notes[$n % 12]);
+    $hadone = 1;
+  }
+  printf(JSONFILE "]");
+  # If there was a warning, put it out
+  if ($c->warning ne '') {
+    printf(JSONFILE ",\n" . ' ' x $indent . "  \"_warning\": \"%s\"", $c->warning);
+  }
+  printf(JSONFILE ' ' x $indent . "}");
+  $hadchord = 1;
+}
+$indent -= $indentwidth;
+printf(JSONFILE "\n" . ' ' x $indent . "],\n");
+
+# Next are scales in groups
+my $hadgroup = 0;
+printf(JSONFILE ' ' x $indent . "\"Scales\" : [\n");
+# Level 1: group
+$indent += $indentwidth;
+foreach my $group (@groups) {
+  my $hadscale = 0;
+  printf(JSONFILE ",\n") if $hadgroup;
+  printf(JSONFILE ' ' x $indent . "{ \"name\": \"%s\",\n", $group->name);
+  $indent += $indentwidth;
+  printf(JSONFILE ' ' x $indent . "\"group\": [\n", $group->name);
+  # Level 2: scale
+  $indent += $indentwidth;
+  for (my $i = $group->offset; $i < $group->offset + $group->scales; $i++) {
+      (my $key) = $scales[$i]->name=~/.* ([^ ]+)$/;
+      printf(JSONFILE ",\n") if $hadscale;
+      printf(JSONFILE ' ' x $indent . "{ \"root\": \"%s\", \"notes\": [", $key);
+      my @bn;
+      @bn = (-1) x 15;
+      foreach my $n (@{$scales[$i]->notes}) {
+        my $midi;
+        my $color;
+        ($midi, $color) = split(/;/, $n);
+        $bn[$color - 1] = $midi % 12;
+      }
+      my $hadnote = 0;
+      my $rootnote = -1;
+      for (my $r = 0; $r < 12; $r++) {
+        if ($bn[$r] >= 0) {
+          printf(JSONFILE ", ") if $hadnote;
+          printf(JSONFILE "\"%s\"", $notes[$bn[$r]]);
+          $hadnote = 1;
+          if ($rootnote < 0) {
+            $rootnote = $r;
+          }
+        }
+      }
+      $indent += $indentwidth;
+      printf(JSONFILE "],\n");
+      if ($notes[$bn[$rootnote]] ne $key && $altnotes[$bn[$rootnote]] ne $key) {
+        printf(JSONFILE ' ' x $indent . "  \"_warning\": \"root note mismatch\",\n");
+      }
+      printf(JSONFILE ' ' x $indent . "\"chords\": [\n");
+      $indent += $indentwidth;
+      printf(JSONFILE ' ' x $indent);
+      my $hadchord = 0;
+      my $wrap = 6;
+      for my $c (@{$scales[$i]->chords}) {
+        printf(JSONFILE ", ") if $hadchord;
+        if ($wrap <= 0) {
+          printf(JSONFILE "\n" . ' ' x $indent);
+          $wrap = 6;
+        }
+        $wrap--;
+        my $index;
+        my $color;
+        ($index, $color) = split(/;/, $c);
+        printf(JSONFILE "%-12s", '"' . $chords[$index]->name . '"');
+        $hadchord = 1;
+      }
+
+      $indent -= $indentwidth;
+      printf(JSONFILE "\n" . ' ' x $indent . "]");
+      $indent -= $indentwidth;
+      printf(JSONFILE "\n" . ' ' x $indent . "}");
+      $hadscale = 1;
+  }
+  $hadgroup = 1;
+  $indent -= $indentwidth;
+  printf(JSONFILE ' ' x $indent . "]\n");
+  $indent -= $indentwidth;
+  printf(JSONFILE ' ' x $indent . "}");
+}
+$indent -= $indentwidth;
+printf(JSONFILE "\n" . ' ' x $indent . "],\n");
+
+# Finally, scale categories
+printf(JSONFILE ' ' x $indent . "\"Categories\" : [\n");
+$indent += $indentwidth;
+
+$indent -= $indentwidth;
+printf(JSONFILE "\n" . ' ' x $indent . "]\n");
+
+printf(JSONFILE "}\n");
 
 # ------------ Subroutines -------------------------
 sub notenames {
