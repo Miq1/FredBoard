@@ -29,46 +29,59 @@ for (my $i = 0; $i < 4096; $i++) {
 
 # If we have a center value, we will adapt the distribution
 if ($center) {
+  # get initial boundaries and value to be set
   my $left_bound = $center - $spread/2;
   my $right_bound = $center + $spread/2;
   my $lvalue = $correction[$center];
   my $rvalue = $correction[$center];
+  my $had_one;
   # Starting with the center interval, loop over the whole array
-  # in decreasing interval halfs left and right to the last one written
+  # in intervals left and right to the last one written
   do {
-    # printf("%d=%d - %d - %d=%d\n", $left_bound, $lvalue, $spread, $right_bound, $rvalue);
+    # printf("%d: %d=%d - %d - %d=%d\n", $had_one, $left_bound, $lvalue, $spread, $right_bound, $rvalue);
+    $had_one = 0;
     # Left interval
-    foreach my $i ($left_bound .. $left_bound + $spread) {
-      if ($i >= 0 && $i <= 4095) {
-        $correction[$i] = $lvalue;
-      }
+    for (my $i = &max(0, $left_bound); $i < &min(4095, $left_bound + $spread); $i++) {
+      $correction[$i] = $lvalue;
+      # printf("l=%d -> %d\n", $i, $lvalue);
+      $had_one = 1;
     }
     # Right interval
-    foreach my $i ($right_bound - $spread .. $right_bound) {
-      if ($i >= 0 && $i <= 4095) {
-        $correction[$i] = $rvalue;
-      }
+    for (my $i = &min(4095, $right_bound); $i > &max(0, $right_bound - $spread); $i--) {
+      $correction[$i] = $rvalue;
+      # printf("r=%d -> %d\n", $i, $rvalue);
+      $had_one = 1;
     }
-    # now reduce the spread
-    $spread -= $reduce;
-    # dynamically shorten intervals
-    $reduce += $steepness;
+    # now recalculate the interval
+    $spread *= $steepness;
+    # adjust left and right values
+    $lvalue = $correction[&max(0, $left_bound - $spread/2 - 1)];
+    $lvalue = 0 if $lvalue < 0;
+    $rvalue = $correction[&min(4095, $right_bound + $spread/2 + 1)];
+    $rvalue = 127 if $rvalue > 127;
     # get new left and right boundaries
     $left_bound -= $spread;
     $right_bound += $spread;
-    # adjust left and right values
-    $lvalue--; 
-    $lvalue = 0 if $lvalue < 0;
-    $rvalue++; 
-    $rvalue = 127 if $rvalue > 127;
-  } while ($left_bound+$spread >= 0 && $right_bound-$spread <= 4095);
-  # } while ($spread > 0 && $left_bound >= 0 && $right_bound <= 4095);
+    # loop until there was no change or the interval size has dropped to zero
+  } while ($had_one > 0 && int($spread) > 0);
 }
 
 # Print out result
-for (my $i = 0; $i < 4096; $i++) {
-  printf("%0d, ", $correction[$i]);
-  print "\n" if ($i % 16 == 15);
+if (0) {
+  my $s = 0;
+  my $cnt = 0;
+  my $from = 0;
+  for (my $i = 0; $i < 4096; $i++) {
+    if ($correction[$i] != $s) {
+      printf("%3d: %4d from %d\n", $s, $cnt, $from);
+      $s = $correction[$i];
+      $cnt = 0;
+      $from = $i;
+    } else {
+      $cnt++;
+    }
+  }
+  printf("%3d: %4d\n", $s, $cnt);
 }
 
 my @statistics;
@@ -83,4 +96,20 @@ while (<STDIN> && ($samples == 0 || $statcount < $samples)) {
 
 for(my $i = 0; $i < @statistics; $i++) {
   printf("%3d; %5.2f; %5.2f\n", $i, $statistics[$i]/$statcount*100.0, $linear_statistics[$i]/$statcount*100.0);
+}
+
+sub min {
+    my $min = shift;
+    foreach (@_) {
+        $min = $_ if $_ < $min;
+    }
+    return $min;
+}
+
+sub max {
+    my $max = shift;
+    foreach (@_) {
+        $max = $_ if $_ > $max;
+    }
+    return $max;
 }
