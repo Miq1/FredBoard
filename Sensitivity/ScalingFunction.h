@@ -2,6 +2,7 @@
 #define __SCALING_FUNCTION
 #include <math.h>
 #include <cstdint>
+#include <array>
 
 #define DEBUGMODE 0
 
@@ -11,6 +12,8 @@
 using std::cout;
 using std::endl;
 #endif
+
+using std::array;
 
 class ScalingFunction {
 public:
@@ -27,9 +30,13 @@ public:
   uint8_t addOverlay(FunctionType t = FT_LINEAR, uint16_t o = 0, uint16_t b = 0, float s = 1.0) {
     return _init(1, t, o, b, s);
   }
-  
+
+  array<uint16_t, 4096> operator=(array<uint16_t, 4096> arr) {
+    return pv = arr;
+  }
+
 protected:
-  uint16_t pv[4096];
+  array<uint16_t, 4096> pv;
 
   uint8_t _init(uint8_t overlay = 0, FunctionType type = FT_LINEAR, uint16_t offset = 0, uint16_t base = 0, float slope = 1.0) {
     // Guard in call values
