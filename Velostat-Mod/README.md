@@ -25,6 +25,10 @@ The mod is easily reversible!
 - a **plectrum** to open the TB case.
 - a **7mm square hand punch tool**. These are sold cheaply in sets from China - see Aliexpress or Amazon for it. 
 
+Optional:
+- a **cutting machine** to cleanly cut the 96 sensor pieces.
+- a **heat gun** or **reflow workstation** to form the sensors.
+
 ### Disassembly
 #### Opening the TheoryBoard
 Put your TB on a flat surface where it is completely supported.
@@ -103,3 +107,11 @@ Does not matter too much as well...
 
 I used these punch tools. 
 The larger one is a 17x17mm square, but I found it easier to cut the squares by hand than punching those out.
+
+#### Applying the material
+Now we will peel off the liner paper from the cut out pieces and place on on each key on the silicone mat.
+Be sure to align the inner hole as good as possible with the punched hole of the Velostat piece.
+
+The material will not fit perfectly to the keys due to their domed shape.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/StickOn.jpg width="66%" alt="Piece placed">
