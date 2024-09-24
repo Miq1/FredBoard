@@ -12,4 +12,11 @@ body:
       default: 0
     validations:
       required: true
-
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the issue?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
