@@ -115,3 +115,11 @@ Be sure to align the inner hole as good as possible with the punched hole of the
 The material will not fit perfectly to the keys due to their domed shape.
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/StickOn.jpg width="66%" alt="Piece placed">
+
+Now we have two options to get the material in a better adjusted shape:
+- When the board is reassembled, for some time firmly press on each key before using the board. This will bend the material over time to accept the form of the keys. I did this with one side of my board and never was urged to correct anything since.
+- Use a heat gun or reflow workstation with moderate temperature (135°C is more than sufficient) to soften the material, then gently nudge it into the right shape. **Be careful not to heat the material too much - Velostat does shrink when heated!**
+
+The heat formed piece will look like this:
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Heated.jpg width="66%" alt="Piece heated">
