@@ -1,5 +1,5 @@
 name: Issue Report
-about: File a bug report, feature request or idea.
+description: File a bug report, feature request or idea.
 body:
   - type: dropdown
     id: version
