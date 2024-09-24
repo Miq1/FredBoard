@@ -8,7 +8,7 @@ body:
       description: What version of FredBOard are you running?
       options:
         - alpha4d
-        - none
+        - "not applicable"
       default: 0
     validations:
       required: true
