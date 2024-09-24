@@ -89,3 +89,17 @@ I used these dimensions (note again that the inner 7mm is mandatory!):
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Cutout.png width="66%" alt="Cut dimensions">
 
+I have no cutting machine available, so I cut all the pieces by hand.
+First I cut 17mm x 17mm squares with a ruler and a scalpel, as precise as I could manage. 
+You will see below that I did not well, but the outer border is less relevant.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/17mm.jpg width="66%" alt="17mm alignment with ruler">
+
+Next I punched out the 7x7mm holes with a hand punch tool and a hammer.
+Again I sometimes missed the center a bit, the hole was shifted to the sides by up to 1mm.
+Does not matter too much as well...
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Punches.jpg width="66%" alt="Square punch tools">
+
+I used these punch tools. 
+The larger one is a 17x17mm square, but I found it easier to cut the squares by hand than punching those out.
