@@ -42,3 +42,5 @@ Take care not to tear these off.
 Now you will see the original sensor foil in place:
 
 <img src=https://github.com/Miq1/FredBoard/blob/master/Velostat-Mod/StickOn.jpg width="66%" alt="Original sensors">
+
+Bla
