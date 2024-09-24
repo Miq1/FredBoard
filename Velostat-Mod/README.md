@@ -144,7 +144,21 @@ These squares are placed on the intersections of the stripes separating the gold
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Bumper.jpg width="66%" alt="Single bumper">
 
 Repeat that for all intersections and add some more bumper pieces to the outer separations as well.
+Leave out the 4 corners as there the silicone bolts must snap into the PCB.
 Seen in green here (I ran out of black duct tape :grinning:)
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/BumpersComplete.jpg width="66%" alt="All bumpers">
 
+### Reassembly
+Put the silicone mats back on the PCB.
+Be sure to slide the 4 bolts on the corners into their fixing holes in the PCB.
+
+Now you can do a first test already to see if everything is working.
+Plug in your board into your PC and boot it up.
+Try out each single key to see if it is working and no other keys are triggered with it.
+
+The pieces of Velostat can be removed easily - if you find a defective one just try with a new one.
+
+If you found everything working, get the upper case and set it back in place.
+Remember the fragility of the clamps and use no force to seize it in.
+If it is snapped on, turn the board and fasten the 4 corner screws.
