@@ -1,0 +1,15 @@
+name: Issue Report
+about: File a bug report, feature request or idea.
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of FredBOard are you running?
+      options:
+        - alpha4d
+        - none
+      default: 0
+    validations:
+      required: true
+
