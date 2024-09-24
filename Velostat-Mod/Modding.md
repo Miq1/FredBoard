@@ -41,6 +41,6 @@ These have four tiny protruding bolts on the corners that go down into holes in 
 Take care not to tear these off.
 Now you will see the original sensor foil in place:
 
-<img src=https://github.com/Miq1/FredBoard/blob/master/Velostat-Mod/GluedCorner.jpg width="66%" alt="Original sensors">
+<img src=https://github.com/Miq1/FredBoard/blob/master/Velostat-Mod/GlueSpots.jpg width="66%" alt="Original sensors">
 
 Bla
