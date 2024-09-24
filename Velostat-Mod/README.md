@@ -45,7 +45,19 @@ Now you will see the original sensor foil in place:
 
 The red arrows are pointing to the spots where the sensor foil is glued to the PCB.
 These glue blobs have to be cut to separate foil and PCB. 
-The easiest is to slide a razor or scalpel carefully between both tu cut away the glue.
+The easiest is to slide a razor or scalpel carefully between both to cut away the glue.
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/GluedCorner.jpg width="66%" alt="Glue spot">
+
+*Note:* To revert the mod you will have to glue the sensor foil in exactly the same position.
+
+Lift off the foil, put it in a sleeve and store it safely, lying flat for a potential later reversion of the mod.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/IrijuleFoil.jpg width="66%" alt="Original sensor foil removed">
+
+Now you will see the PCB sensors and center LEDs.
+Take care not to scratch or soil the golden sensor surfaces.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Sensors.jpg width="66%" alt="PCB sensors">
+
 
