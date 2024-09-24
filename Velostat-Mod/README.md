@@ -60,4 +60,26 @@ Take care not to scratch or soil the golden sensor surfaces.
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Sensors.jpg width="66%" alt="PCB sensors">
 
+#### Preparing the Velostat
+The Velostat material needs to be attached to the silicone key mat, one piece for each key.
+The pieces must have a hole in the middle to let pass the LED's light.
+
+The key structure in the silicone is hollow in the middle and slightly domed to the sides.
+The most important area for the keys to work properly is the rim around the LED hole.
+Contact to the sensors is made with this rim first, gradually widening the contact area when pressing a key.
+
+Hence the exactness of the rim is relevant for the function of the keys, the outer area is less critical.
+
+We will cut out squares of Velostat that have a square center hole matching that of the key and are some mm wide to each side.
+
+Since Velostat itself is not adhesive, we need to add the carpet tape to it first.
+Cut a length of carpet tape and apply it to the Velostat sheet - lining up to one edge.
+Be careful: once stuck, the Velostat is no more removable from the tape.
+
+With a scalpel and a ruler or a scissor cut the laminated piece of Velostat/tape from the sheet to get a stripe.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Laminated.jpg width="66%" alt="Laminated with tape">
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Stripe.jpg width="66%" alt="Cut stripe">
+
 
