@@ -31,7 +31,7 @@ Put your TB on a flat surface where it is completely supported.
 Turn it upside down.
 Remove the 4 screws at the four corners.
 Turn around the board, safely store the screws for later reassembly.
-With a thin plectrum or other plastic tool to open smartphones or tablets carefully slide along the slit between upper and lower part of the case to release the plastic clamps.
+With a thin plectrum or other plastic tool to open smartphones or tablets carefully slide along the slit between upper and lower part of the case to release the 10+ plastic clamps.
 **Apply the least force possible, the clamps are likely to break!**
 Lift off the upper case and safely place it upside down on a flat surface somewhere - it is fragile.
 
@@ -43,4 +43,9 @@ Now you will see the original sensor foil in place:
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/GlueSpots.jpg width="66%" alt="Original sensors">
 
-Bla
+The red arrows are pointing to the spots where the sensor foil is glued to the PCB.
+These glue blobs have to be cut to separate foil and PCB. 
+The easiest is to slide a razor or scalpel carefully between both tu cut away the glue.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/GluedCorner.jpg width="66%" alt="Glue spot">
+
