@@ -73,7 +73,8 @@ Hence the exactness of the rim is relevant for the function of the keys, the out
 We will cut out squares of Velostat that have a square center hole matching that of the key and are some mm wide to each side.
 
 Since Velostat itself is not adhesive, we need to add the carpet tape to it first.
-Cut a length of carpet tape and apply it to the Velostat sheet - lining up to one edge.
+Cut a length of carpet tape and laminate it as flat as possible to the Velostat sheet - lining up to one edge.
+If you got some bubbles left between tape and Velostat, you may try to prick into it with a needle  and try to flat out the bubble.
 Be careful: once stuck, the Velostat is no more removable from the tape.
 
 With a scalpel and a ruler or a scissor cut the laminated piece of Velostat/tape from the sheet to get a stripe.
@@ -82,4 +83,9 @@ With a scalpel and a ruler or a scissor cut the laminated piece of Velostat/tape
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Stripe.jpg width="66%" alt="Cut stripe">
 
+#### Cutting the sensor pieces
+We will need 96 pieces from our laminated material.
+I used these dimensions (note again that the inner 7mm is mandatory!):
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Cutout.png width="66%" alt="Cut dimensions">
 
