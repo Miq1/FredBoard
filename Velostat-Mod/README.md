@@ -64,6 +64,7 @@ Take care not to scratch or soil the golden sensor surfaces.
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Sensors.jpg width="66%" alt="PCB sensors">
 
+### Making the sensors
 #### Preparing the Velostat
 The Velostat material needs to be attached to the silicone key mat, one piece for each key.
 The pieces must have a hole in the middle to let pass the LED's light.
@@ -114,7 +115,7 @@ Be sure to align the inner hole as good as possible with the punched hole of the
 
 The material will not fit perfectly to the keys due to their domed shape.
 
-<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/StickOn.jpg width="66%" alt="Piece placed">
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Alignment.jpg width="66%" alt="Piece placed">
 
 Now we have two options to get the material in a better adjusted shape:
 - When the board is reassembled, for some time firmly press on each key before using the board. This will bend the material over time to accept the form of the keys. I did this with one side of my board and never was urged to correct anything since.
@@ -123,3 +124,27 @@ Now we have two options to get the material in a better adjusted shape:
 The heat formed piece will look like this:
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Heated.jpg width="66%" alt="Piece heated">
+
+You can see the white carpet tape shine through now where the Velostat has shrunk a little, but the form is exactly molded to the key shape.
+
+Repeat this for all 96 pieces on both silicone mats.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/AllInPLace.jpg width="66%" alt="All in place">
+
+As you can see, I was not very successful cutting exactle fitting square pieces, but that does not matter at all!
+
+### Adding the bumpers
+If used as is, our keypad would work already, but it will generate a lot of unwanted key presses due to the Velostat lying on the sensor surface already and being highly conductive.
+So we need to separate it from the sensors by just a little bit.
+For that purpose we will apply small bumper plates made from duct tape.
+
+I cut the textile duct tape to small squares of 5x5mm.
+These squares are placed on the intersections of the stripes separating the golden sensor surfaces, tilted by 45°.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Bumper.jpg width="66%" alt="Single bumper">
+
+Repeat that for all intersections and add some more bumper pieces to the outer separations as well.
+Seen in green here (I ran out of black duct tape :grinning:)
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/BumpersComplete.jpg width="66%" alt="All bumpers">
+
