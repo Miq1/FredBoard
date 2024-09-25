@@ -162,3 +162,12 @@ The pieces of Velostat can be removed easily - if you find a defective one just 
 If you found everything working, get the upper case and set it back in place.
 Remember the fragility of the clamps and use no force to seize it in.
 If it is snapped on, turn the board and fasten the 4 corner screws.
+
+#### Mod the Mod
+Alain Blanchard had an idea that may be worthwhile considering: to improve the feel of the keys, put some soft silicone under them.
+I had some 1mm self-adhesive foamed rubber lying around, so I stamped out 6mm circles and placed these on the duct tape bumpers.
+I did not remove the duct tape because I was afraid the glue on the rubber would not be easily removable in case.
+
+This is the result:
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/keapad.gif width="66%" alt="Soft pads">
