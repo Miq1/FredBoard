@@ -48,7 +48,7 @@ This can be done by sliding the plectrum all along the slit between lid and bott
 Now we need to remove the printed screen cover from the center panel.
 It is glued to the panel proper with a tough glue pasted on the complete surface, leaving out the display only.
 
-img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/ScreenSet.png" width="66%" alt="Screen on">
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/ScreenSet.png" width="66%" alt="Screen on">
 
 The best way I found is to start at a corner and slide a scalpel or razor blade flatly between printed screen and panel.
 As soon as you can lift the edge a bit, do so and keep it under tension.
@@ -62,5 +62,5 @@ This will take some time!
 With this procedure some of the white inserts may already come from the panel. 
 This is just fine, we will need to remove them in any case.
 
-img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/OrigButtonsIn.png" width="66%" alt="Screen off">
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/OrigButtonsIn.png" width="66%" alt="Screen off">
 
