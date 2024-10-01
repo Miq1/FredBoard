@@ -64,3 +64,10 @@ This is just fine, we will need to remove them in any case.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/OrigButtonsIn.png" width="66%" alt="Screen off">
 
+Now use pieces of gaffer tape to dab off the glue residues.
+If you repeatedly will press the tape on the glue and quickly lift it off again, the glue will rather stick to the tape than to the panel.
+
+With the same technique you will be able to pull out all the 19 white inserts as well.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/AllRemoved.png" width="66%" alt="All removed">
+
