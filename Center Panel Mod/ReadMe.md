@@ -54,6 +54,7 @@ The best way I found is to start at a corner and slide a scalpel or razor blade 
 As soon as you can lift the edge a bit, do so and keep it under tension.
 Now proceed with the blade along the edges and deeper into the opening.
 Be careful to keep the blade flat to not damage the screen or panel.
+Take special care of the flat display flex cable at the top edge.
 
 A gentle stream of hot air may help, but take care to not overheat the materials.
 
@@ -70,4 +71,38 @@ If you repeatedly will press the tape on the glue and quickly lift it off again,
 With the same technique you will be able to pull out all the 19 white inserts as well.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/AllRemoved.png" width="66%" alt="All removed">
+
+#### Lift off the center panel
+Now 4 screws are accessible at the corners of the panel.
+These are self-cutting plastic screws that may work with the new center panel, but I definitely do not recommend that.
+The more you will loosen and fasten these screws, the wider the thread will get - finally not able to hold the screw any more.
+
+I do recomment replacing these screws by a set of proper metric threads and screws.
+
+1. remove the 4 screws
+2. gently lift the center panel at one end - not too far! Be sure to keep the flex cables on the bottom side unharmed. The top side needs to be slid down a bit to let the USB and power sockets glide out of the case holes
+3. with a hand drill slightly widen the screw holes in the bottom part of the case
+4. use a heated soldering iron to set the melt-in threads into these holes. Do not force or overheat it
+5. repeat at the other end of the panel to have all four threads replaced.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/MeltIn2.png" width="66%" alt="Melt-in set">
+
+### The new panel
+The panel consists of two different components - the screen plate made from PETG or PLS, and the 19 button insets made from TPU.
+You will find the STL files to print the parts right here in the files list.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/PlateFC.png" width="66%" alt="Screen plate CAD">
+
+The screen plate (here seen from below) is made to slip in the four former screw cutouts at the panel's corners, thus lying flat on the panel.
+The display opening has a frame around it to hold an optional color filter or screen protector and openings for the 19 buttons.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/Buttons.png" width="66%" alt="Buttons CAD">
+
+The buttons will be needed multiply, with the exception of the oval middle menu button.
+- arrow left: 2 items
+- arrow up: 2 items
+- oval center button: 1 item
+- rhombic select button: 14 items.
+
+These buttons will be set into the respective openings in the panel, replacing the removed white original parts.
 
