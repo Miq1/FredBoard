@@ -88,7 +88,7 @@ I do recomment replacing these screws by a set of proper metric threads and scre
 <img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/MeltIn2.png" width="66%" alt="Melt-in set">
 
 ### The new panel
-The panel consists of two different components - the screen plate made from PETG or PLS, and the 19 button insets made from TPU.
+The panel consists of two different components - the screen plate made from PETG or PLA, and the 19 button insets made from TPU.
 You will find the STL files to print the parts right here in the files list.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/PlateFC.png" width="66%" alt="Screen plate CAD">
@@ -105,4 +105,18 @@ The buttons will be needed multiply, with the exception of the oval middle menu 
 - rhombic select button: 14 items.
 
 These buttons will be set into the respective openings in the panel, replacing the removed white original parts.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/Plate.png" width="66%" alt="Plate PETG">
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/Parts.png" width="66%" alt="Buttons TPU">
+
+### Assembly
+Insert all 19 printed TPU buttons into their holes in the panel. 
+You may need to cut or sand off remaining strings from the prints to have them fit exactly into the openings.
+
+If you would like to add a colour filter, cut a 43mm x 78mm piece from the filter material, it will fit exactly into the frame around the display opening.
+Fix it with a few drops of silicone adhesive - to keep it in place while have it removable again.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/Filters.png" width="66%" alt="Colour filters">
+
+
 
