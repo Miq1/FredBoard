@@ -7,7 +7,7 @@ So I decided to build a new center panel...
 The sensors are given as are, despite their shortcomings in some aspects.
 Fred is struggling to get around some, but the basic principles will remain the same.
 
-The sensors are based on Infineon Capsense&tm; chips.
+The sensors are based on Infineon Capsense:tm: chips.
 These are watching the capacitive changes around 4 sensors per chip.
 
 - the sensors are no buttons or switches, so anything possible with a proper switch (double click, holding etc.) will not work
