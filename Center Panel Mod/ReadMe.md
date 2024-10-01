@@ -113,10 +113,20 @@ These buttons will be set into the respective openings in the panel, replacing t
 Insert all 19 printed TPU buttons into their holes in the panel. 
 You may need to cut or sand off remaining strings from the prints to have them fit exactly into the openings.
 
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/PrintSetIn.png" width="66%" alt="Buttons set in">
+
 If you would like to add a colour filter, cut a 43mm x 78mm piece from the filter material, it will fit exactly into the frame around the display opening.
 Fix it with a few drops of silicone adhesive - to keep it in place while have it removable again.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/Filters.png" width="66%" alt="Colour filters">
 
+Now place the screen plate over all buttons and gently slide it into place.
+The buttons should go easily through their holes, the 4 corner squares must fit into the cutouts of the panel.
 
+Finally fasten the screen plate with the M2 screws into the melted-in threads at the four corners.
 
+<img src="https://github.com/Miq1/FredBoard/blob/main/Center Panel Mod/PlateFixed.png" width="66%" alt="Plate set">
+
+Close the lid, fasten the screws from the bottom side. 
+
+Enjoy! :wink:
