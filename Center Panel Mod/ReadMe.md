@@ -38,7 +38,7 @@ Plus some parts and consumables:
 - screen protector or color foil
 
 ### Disassembly
-This will require some patience and carefulness to not damage anything ypou may want to put back later...
+This will require some patience and carefulness to not damage anything you may want to put back later...
 
 #### Open the case
 Take off the top case lid by removing the four screws from the bottom side corners and *carefully* unkhooking the plastic clamps that are holding the lid on the inside. 
