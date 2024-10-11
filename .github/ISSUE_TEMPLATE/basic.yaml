@@ -8,6 +8,8 @@ body:
       description: What version of FredBoard are you running?
       options:
         - alpha4d
+        - alpha4e
+        - alpha4f
         - "not applicable"
       default: 0
     validations:
