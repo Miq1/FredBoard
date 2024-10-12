@@ -36,7 +36,7 @@ TPU is not the easiest stuff to print, known for its "stringing" tendency that w
 You should know which settings are best for your choice of filament.
 The TPU is profiting enormously from being dried, so if you own a filament dryer, use it!
 
-The STL files for the buttons with the standard letters as were on the original plates are to be found <a href="https://github.com/Miq1/FredBoard/blob/main/Top+Row+Mod/Basic+Buttons+STL">in the 'Basic Buttons STL' directory</a>
+The STL files for the buttons with the standard letters as were on the original plates are to be found <a href="https://github.com/Miq1/FredBoard/tree/main/Top%20Row%20Mod/Basic%20buttons%20STL"> in the 'Basic Buttons STL' directory</a>
 
 #### Ideal: IDEX printer with 2 TPUs
 An IDEX 3D printer is able to print two filaments with two extruders simultaneously.
