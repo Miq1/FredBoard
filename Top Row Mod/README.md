@@ -30,6 +30,20 @@ If it is too hard to push, rather warm up some more instead of forcing the spatu
 If you succeeded removing the plates and adhesives you will see the sensor plates:
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/Sensors.png" width="66%" alt="Sensor plates">
 
+### Printing the buttons
+The buttons will be printed from TPU filament.
+TPU is not the easiest stuff to print, known for its "stringing" tendency that will pull out thin threads of filament when the extruder is moving.
+You should know which settings are best for your choice of filament.
+The TPU is profiting enormously from being dried, so if you own a filament dryer, use it!
+
+The STL files for the buttons with the standard letters as were on the original plates are to be found <a href="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/Basic Buttons STL">in the 'Basic Buttons STL' directory</a>
+
+#### Ideal: IDEX printer with 2 TPUs
+An IDEX 3D printer is able to print two filaments with two extruders simultaneously.
+This is perfect for our buttons to lay in the letters in a different color.
+
+#### Alternative: single TPU and manual coloring
+
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/CompleteLeft.png" width="66%" alt="The Result">
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/CompleteRight.png" width="66%" alt="The Result">
