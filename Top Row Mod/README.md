@@ -38,6 +38,17 @@ The TPU is profiting enormously from being dried, so if you own a filament dryer
 
 The STL files for the buttons with the standard letters as were on the original plates are to be found <a href="https://github.com/Miq1/FredBoard/tree/main/Top%20Row%20Mod/Basic%20buttons%20STL"> in the 'Basic Buttons STL' directory</a>
 
+There are sets of two STLs for each button stripe:
+- **C-F**, Letters and Buttons - the left half of the left button row
+- **F#-B**, Letters and Buttons - the right half of the left button row
+- **5-12**, Letters and Buttons - the two left buttons of the right button row
+- **M1-M7**, Letters and Buttons - the middle Mode buttons of the right button row
+- **U1-U3**, Letters and Buttons - the right User buttons of the right button row
+
+The 'Letters' files are containing the inlay letters, teh 'Button' files the button stripe.
+
+See below how to use both.
+
 #### Ideal: IDEX printer with 2 TPUs
 An IDEX 3D printer is able to print two filaments with two extruders simultaneously.
 This is perfect for our buttons to lay in the letters in a different color.
