@@ -77,6 +77,16 @@ To get a cleaner look, it is better to print the top surface of the buttoms plac
 Select the object and in the tool bar on the left select the rotate tool.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaRotate.png" width="66%" alt="Rotate object">
 
+Grab the red or green handle and turn the object by exactly 180°.
+If you will move the mouse pointer to the inner circle of the rotate tool while holding down the left mouse key, you will be able to rotate in 45° steps.
+
+Next use the tool below the rotate tool in the tool bar to place it on the print bed.
+
+Since we have two TPU filaments in use, we will have to print support structures with these as well.
+TPU is sticking on TPU like hell, so we need sensible settings to prevent the supports coming out unseparatable from the button strip.
+These are the settings I found to allow an "easy" (well, sort of :winking:) removal of the supports:
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaOptions.png" width="66%" alt="Support print options">
+
 
 #### Alternative: single TPU and manual coloring
 
