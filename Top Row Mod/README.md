@@ -146,6 +146,13 @@ This function is used to enable the centering of text on a button.
 You are not bound to the given texts at all.
 with a call like ``makeButtons(["I", "am", "FB"])`` and ``makeLetters(["I", "am", "FB"])`` respectively you can put any text on the buttons you like. 
 
+With the ``Run`` command you will execute your design to see the results (leftmost icon on the screenshot below).
+Once you are satisfied use the ``Render`` command to refine the object to be exported (next icon to the right of ``Run``).
+Finally use the ``F7`` key to export the rendered object to a STL file.
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/RunRender.png" width="66%" alt="OpenSCAD commands">
+
+You **absolutely must** run the design twice, one time with the ``makeButtons()`` call enabled, another with ``makeLetters()`` with **exactly the same parameters** to get a set of matching Butttons and Letters STL files.
+
 ### The Result
 This is my current design - the blue TPU for the Mode keys is a bit too light to be optimal, but that was the only I had in stock.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/CompleteLeft.png" width="66%" alt="The Result">
