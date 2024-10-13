@@ -36,6 +36,10 @@ TPU is not the easiest stuff to print, known for its "stringing" tendency that w
 You should know which settings are best for your choice of filament.
 The TPU is profiting enormously from being dried, so if you own a filament dryer, use it!
 
+I did not try to use other filaments like PLA or PETG.
+Those may work as well, but the button dimensions (``buttonWidth`` in ste OpenSCAD file) may need to be adjusted for it.
+The fitting of the buttons is as tight as can be.
+
 The STL files for the buttons with the standard letters as were on the original plates are to be found <a href="https://github.com/Miq1/FredBoard/tree/main/Top%20Row%20Mod/Basic%20buttons%20STL"> in the 'Basic Buttons STL' directory</a>
 
 There are sets of two STLs for each button stripe:
@@ -52,6 +56,14 @@ See below how to use both.
 #### Ideal: IDEX printer with 2 TPUs
 An IDEX 3D printer is able to print two filaments with two extruders simultaneously.
 This is perfect for our buttons to lay in the letters in a different color.
+Any other printer able to print more than one filament at a time will be fine, too.
+
+I will describe the procedure for Prusaslicer here - that is the one I am using.
+Other slicers will do as well, but you may need to adjust the settings accordingly.
+
+To print a strip you will need to open the Letters and Buttons files of that strip simultaneously.
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaLoad2.png" width="66%" alt="Load two STL files">
+
 
 #### Alternative: single TPU and manual coloring
 
