@@ -64,6 +64,16 @@ Other slicers will do as well, but you may need to adjust the settings according
 To print a strip you will need to open the Letters and Buttons files of that strip simultaneously.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaLoad2.png" width="66%" alt="Load two STL files">
 
+If you do, Prusaslicer will ask you if to combine both STLs into one compound:
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaUnion.png" width="66%" alt="Combine into compound">
+
+Answer 'YES' to that.
+Now the object will be placed on the bed facing up.
+On the right hand side, check if the extruders have been assigned correctly to the buttons and letters. 
+If not, adjust it now.
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaColor.png" width="66%" alt="Select colors">
+
+
 
 #### Alternative: single TPU and manual coloring
 
