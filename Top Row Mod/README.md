@@ -106,6 +106,15 @@ Now take a syringe and fill it with the acrylic paint (or use a brush with it) a
 Be sure to completely fill these without spilling too much on the outside.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/ManualFilled.png" width="66%" alt="Letters filled">
 
+Let it dry **thoroughly!**
+I set it aside overnight to be sure it had dried completely.
+
+Finally sand the buttons with papers in increasing granularity to remove the excess paint and get a smooth surface on the buttons. 
+Expect to not be able to remove every single stain of paint.
+The paint will diffuse into tiny slits in the 3D print.
+You will have to live with it, unfortunately.
+I am not that skilled, so my result may not be the most convincing:
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/ManualDrySanded.png" width="66%" alt="Finished set">
 
 
 ### Modifying the buttons
