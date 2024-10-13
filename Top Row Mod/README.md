@@ -73,6 +73,9 @@ On the right hand side, check if the extruders have been assigned correctly to t
 If not, adjust it now.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaColor.png" width="66%" alt="Select colors">
 
+To get a cleaner look, it is better to print the top surface of the buttoms placed on the print bed, so we need to flip the print object over now.
+Select the object and in the tool bar on the left select the rotate tool.
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/PrusaRotate.png" width="66%" alt="Rotate object">
 
 
 #### Alternative: single TPU and manual coloring
