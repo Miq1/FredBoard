@@ -1,13 +1,15 @@
 // Unilluminated upper row buttons on FredBoard
 
 fontSize = 7;           // size of text
-textXOffset = 2;        // Distance to move text right
+textXOffset = 2;        // Distance to move text right/left in non-center mode
 textYOffset = 4;        // Distance to move text up
 fontName = "DejaVu Sans Condensed";
 
 // Text strings
 textLeft = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+textLeftAlt = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 textRight = [ "5", "12", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "U1", "U2", "U3"];
+textRightAlt = [ "5", "12", "Io", "Do", "Ph", "Ly", "Mx", "Ae", "Lo", "U1", "U2", "U3"];
 
 // 1. Make the button base 
 // Use the text strings from above to generate a full set or use
@@ -29,10 +31,10 @@ textRight = [ "5", "12", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "U1", "U2", "
 // Both must be rendered separately and exported as separate STL!
 do = 1;
 centerT = true;
-textString = slice(textLeft, 0, 5);   // Left half of left row
+// textString = slice(textLeft, 0, 5);   // Left half of left row
 // textString = slice(textLeft, 6, 11);  // Right half of left row
 // textString = slice(textRight, 0, 1);  // 5, 12
-// textString = slice(textRight, 2, 8);  // M1-M7
+textString = slice(textRightAlt, 2, 8);  // M1-M7
 // textString = slice(textRight, 9, 11); // U1-U3
 
 if(do==1) {
@@ -73,7 +75,7 @@ module singleButton (textIs = "new", center = false, centerShift = 0) {
       offset(delta = -roundRadius) 
       square(size = [buttonWidth, buttonWidth]);
     // ...minus the text 
-    translate([buttonWidth/2-tw.size.x/2-centerShift, buttonWidth/2-tw.size.y/2, buttonHeight-1])
+    translate(center == true ? [buttonWidth/2-tw.size.x/2-centerShift, textYOffset, buttonHeight-1] : [textXOffset, textYOffset, buttonHeight-1])
       linear_extrude(1.1)
       textItem(textIs);
   }
@@ -99,17 +101,10 @@ module makeLetters(bv = ["new"], center = false) {
     tw = textmetrics(bv[i], fontSize, fontName);
     // echo(tw.size.x);
     translate([buttonFrame+i*(buttonWidth+buttonGap), buttonFrame, frameHeight-0.1]) {
-      if (center==true) {
-        translate([buttonWidth/2-tw.size.x/2-centerShift, buttonWidth/2-tw.size.y/2, buttonHeight-1])
-          color("Blue") 
-          linear_extrude(1)
-          textItem(bv[i]);
-      } else {
-        translate([textXOffset, textYOffset, buttonHeight-1])
-          color("Green") 
-          linear_extrude(1)
-          textItem(bv[i]);
-      }
+      translate(center == true ? [buttonWidth/2-tw.size.x/2-centerShift, textYOffset, buttonHeight-1] : [textXOffset, textYOffset, buttonHeight-1])
+        color("Green") 
+        linear_extrude(1)
+        textItem(bv[i]);
     }
   }
 }

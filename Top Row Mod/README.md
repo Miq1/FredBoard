@@ -131,13 +131,15 @@ The relevant options to be modified all are in the first section of that file:
 // Unilluminated upper row buttons on FredBoard
 
 fontSize = 7;           // size of text
-textXOffset = 2;        // Distance to move text right
+textXOffset = 2;        // Distance to move text right/left in non-center mode
 textYOffset = 4;        // Distance to move text up
 fontName = "DejaVu Sans Condensed";
 
 // Text strings
 textLeft = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+textLeftAlt = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 textRight = [ "5", "12", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "U1", "U2", "U3"];
+textRightAlt = [ "5", "12", "Io", "Do", "Ph", "Ly", "Mx", "Ae", "Lo", "U1", "U2", "U3"];
 
 // 1. Make the button base 
 // Use the text strings from above to generate a full set or use
@@ -159,10 +161,10 @@ textRight = [ "5", "12", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "U1", "U2", "
 // Both must be rendered separately and exported as separate STL!
 do = 1;
 centerT = true;
-textString = slice(textLeft, 0, 5);   // Left half of left row
+// textString = slice(textLeft, 0, 5);   // Left half of left row
 // textString = slice(textLeft, 6, 11);  // Right half of left row
 // textString = slice(textRight, 0, 1);  // 5, 12
-// textString = slice(textRight, 2, 8);  // M1-M7
+textString = slice(textRightAlt, 2, 8);  // M1-M7
 // textString = slice(textRight, 9, 11); // U1-U3
 
 if(do==1) {
@@ -187,6 +189,9 @@ Finally use the ``F7`` key to export the rendered object to a STL file.
 <img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/RunRender.png" width="66%" alt="OpenSCAD commands">
 
 You **absolutely must** run the design twice, one time with the ``makeButtons()`` call enabled, another with ``makeLetters()`` with **exactly the same parameters** to get a set of matching Butttons and Letters STL files.
+
+I did an alternative set for the mode buttons, to be found in the ``M1-M7_Alt....stl`` files:
+<img src="https://github.com/Miq1/FredBoard/blob/main/Top Row Mod/AltBasic.png" width="66%" alt="Alternate Mode keys">
 
 ### The Result
 This is my current design - the blue TPU for the Mode keys is a bit too light to be optimal, but that was the only I had in stock.
