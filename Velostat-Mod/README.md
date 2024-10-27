@@ -171,3 +171,6 @@ I did not remove the duct tape because I was afraid the glue on the rubber would
 This is the result:
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/keapad.gif width="66%" alt="Soft pads">
+
+*Update*: I again removed the foam bumpers as I found the feel not responsive enough for me any more. 
+YMMV, as ever :winking:
