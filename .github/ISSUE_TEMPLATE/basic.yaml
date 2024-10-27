@@ -11,6 +11,7 @@ body:
         - alpha4e
         - alpha4f
         - alpha4g
+        . alpha5
         - "not applicable"
       default: 0
     validations:
