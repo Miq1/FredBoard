@@ -7,11 +7,9 @@ body:
       label: Version
       description: What version of FredBoard are you running?
       options:
-        - alpha4d
-        - alpha4e
-        - alpha4f
         - alpha4g
         - alpha5
+        - alpha5.1
         - "not applicable"
       default: 0
     validations:
