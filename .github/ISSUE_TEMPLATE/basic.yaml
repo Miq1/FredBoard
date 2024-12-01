@@ -9,7 +9,8 @@ body:
       options:
         - alpha5.4
         - alpha6
-        - alpha 6.1
+        - alpha6.1
+        - alpha6.2
         - "not applicable"
       default: 0
     validations:
