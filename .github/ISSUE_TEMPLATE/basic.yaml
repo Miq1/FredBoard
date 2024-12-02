@@ -11,6 +11,7 @@ body:
         - alpha6
         - alpha6.1
         - alpha6.2
+        - alpha6.3b
         - "not applicable"
       default: 0
     validations:
