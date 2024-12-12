@@ -12,7 +12,7 @@ body:
         - alpha6.2
         - alpha6.3b
         - alpha6.5F
-        - alpha6.5G
+        - alfalfa6.5G ("mooo!")
         - "not applicable"
       default: 0
     validations:
