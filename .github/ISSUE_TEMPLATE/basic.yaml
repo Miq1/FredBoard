@@ -13,6 +13,7 @@ body:
         - alpha6.3b
         - alpha6.5F
         - alfalfa6.5G ("mooo!")
+        - TallFescue.6.5999
         - "not applicable"
       default: 0
     validations:
