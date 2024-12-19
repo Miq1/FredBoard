@@ -219,7 +219,11 @@ Push it into the punch tool with the printed guide inserted.
 4. insert the punched stripe into the cutting tool and cut it at the marked line to get a 14mm x 14mm square tile.
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/CutTile.png width="66%" alt="Cut tile">
 
-5. repeat... :winking:
+5. repeat... :wink:
+
+#### Placing the tiles
+Peel off the transparent plastic liner from a cut tile and place the tile on the "Press" tool, adhesive side up.
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Placer.png width="66%" alt="Place tile on Press tool">
 
 
 
