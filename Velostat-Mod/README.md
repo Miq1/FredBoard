@@ -11,6 +11,16 @@ The result was overwhelming!
 The sensitivity was massively improved, the pressure spans a wider range than the original material.
 So I converted both keypads to Velastat pads now and would like to share the way it has been done.
 
+#### Update: 3M adhesive
+While the mod as described was working nicely, I had a special issue with it. 
+When modding I tend to open and close the Theoryboard multiple times.
+Since the key pads are made from silicone, the adhesive tape I used to fix the Velostat on it is not sticking strongly, rather like a Post-It&trade; note.
+Therefore the Velostat bit came off sometimes.
+
+I found a special 3M double adhesive tape to get around that issue.
+It unfortunately ius rather expensive but nicely does its job.
+The "3M mod update" was added at the end of the page.
+
 ```diff
 - Note: the sensitivity curve of Velostat makes it tricky to play with velocity and aftertouch.  One can adjust to it, but the planned sensitivity  control in FredBoard will make it easier!
 ```
@@ -172,5 +182,10 @@ This is the result:
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/keapad.gif width="66%" alt="Soft pads">
 
-*Update*: I again removed the foam bumpers as I found the feel not responsive enough for me any more. 
-YMMV, as ever :winking:
+### 3M tape mod
+There is a special 3M double adhesive tape (type 9731) that has one side with a traditional acrylic glue, but the other coated with a special silicone glue.
+This tape will stick very good to both the Velostat and the silicone key pads. It is expensive, though: I had to buy a 65m roll of 14mm wide tape for 60+€, knowing I would need only 1.5m in the end. It was worth it for me, you may have to decide yourself.
+
+The tape has two liners, a brownish paper one on the acrylic side, a transparent plastic liner on the silicone side.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/3Mliner.png width="66%" alt="3M tape">
