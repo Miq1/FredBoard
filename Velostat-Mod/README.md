@@ -216,3 +216,10 @@ The cleaner you will cut, the easier the further processing will be.
 Push it into the punch tool with the printed guide inserted.
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Punch.png width="66%" alt="Punching holes">
 
+4. insert the punched stripe into the cutting tool and cut it at the marked line to get a 14mm x 14mm square tile.
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/CutTile.png width="66%" alt="Cut tile">
+
+5. repeat... :winking:
+
+
+
