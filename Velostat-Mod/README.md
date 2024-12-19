@@ -189,3 +189,30 @@ This tape will stick very good to both the Velostat and the silicone key pads. I
 The tape has two liners, a brownish paper one on the acrylic side, a transparent plastic liner on the silicone side.
 
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/3Mliner.png width="66%" alt="3M tape">
+
+#### Additional tools used
+To make the production of the almost 100 Velostat tiles easier I created some 3D printed tools:
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/3Mtools.png width="66%" alt="Making tools">
+
+From the left, the grey part is called the "Press" and is used to exactly center a tile on a keypad key. 
+The green part ("Cut") is to cut a tile to measure from a stripe of Velostst sandwich and the yellow ("Punch") is used to adjust the length for a commecrial punching tool.
+
+I used this [this 8mm punch from Amazon](https://amzn.eu/d/eW3AJuU), the Punch adjustment part is constructed for it.
+You may have to modify it if your punch is different.
+The purpose is to have the 8mm hole centered 7mm before the end of the Velostat stripe, so that it will be in the center of a 14mm x 14mm square tile.
+
+#### Making the tiles
+The steps are similar to those above, but modified to use the printed tools.
+In the end the making of 100 tiles took less than half of the time than I used originally.
+
+1. pull off the brown paper liner from a length of 3M tape and apply it to the Velostat.
+Try to avoid any bubbles of air between the materials.
+
+2. cut the stripe from the Velostat sheet, resulting in a 14mm wide sandwich from 3M tape and Velostat. 
+The cleaner you will cut, the easier the further processing will be.
+
+3. cut one end of the stripe to be exactly right-angled. 
+Push it into the punch tool with the printed guide inserted.
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Punch.png width="66%" alt="Punching holes">
+
