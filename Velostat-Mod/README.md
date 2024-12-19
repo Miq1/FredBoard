@@ -223,14 +223,21 @@ Push it into the punch tool with the printed guide inserted.
 
 #### Placing the tiles
 Peel off the transparent plastic liner from a cut tile and place the tile on the "Press" tool, adhesive side up.
+
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Placer.png width="66%" alt="Place tile on Press tool">
 
 Now insert the Press tool's rod into the hole of a key.
 It will follow the rectangular form and hence center the tile over the key.
+
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/PlacerSet.png width="66%" alt="Press tool set in">
 
 Firmly press the tool down to fix the tile on the key.
 You may wiggle the tool a bit to all sides to better follow the domed form of the key.
 Remove the tool to find the tile stuck in place.
+
 <img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/TileSet.png width="66%" alt="Tile in place">
 
+#### Result
+The result has all tiles at their positions, firmly sticking to the silicone.
+
+<img src=https://github.com/Miq1/FredBoard/blob/main/Velostat-Mod/Finished.png width="66%" alt="All tiles set">
