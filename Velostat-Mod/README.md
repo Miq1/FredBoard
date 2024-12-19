@@ -198,6 +198,8 @@ To make the production of the almost 100 Velostat tiles easier I created some 3D
 From the left, the grey part is called the "Press" and is used to exactly center a tile on a keypad key. 
 The green part ("Cut") is to cut a tile to measure from a stripe of Velostst sandwich and the yellow ("Punch") is used to adjust the length for a commecrial punching tool.
 
+The STL files can be found here and are named "StanzlehreRund-Press.stl", "StanzlehreRund-Cut.stl" and "StanzlehreRund-Punch.stl", respectively.
+
 I used this [this 8mm punch from Amazon](https://amzn.eu/d/eW3AJuU), the Punch adjustment part is constructed for it.
 You may have to modify it if your punch is different.
 The purpose is to have the 8mm hole centered 7mm before the end of the Velostat stripe, so that it will be in the center of a 14mm x 14mm square tile.
