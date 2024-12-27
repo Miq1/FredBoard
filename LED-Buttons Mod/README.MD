@@ -80,6 +80,29 @@ Cylindrical screw heads advisable.
 * tweezers
 * (optional) a Wemos D1 mini or NodeMCU board for testing
 
+## Disassembly
+Please refer to the "Center Panel Mod" and "Top Row Mod" instructions for the initial disassembly and removal of the printed original cover sheets on center panel and button rows.
+
+In addition you will need to remove the PCBs. 
+The center board is held by 4 screws in the corners of the board.
+The two keyboard PCBs have 4 larger screws in their corners and 8 smaller ones on top and bottom of the boards.
+Remove all to completely loosen the boards.
+Put the screws at a safe place to later find them again...
+
+The left and right keyboard halves are connected to the main board by flex cables.
+Be careful not to bend these cables or break them! 
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/FlexConnector.png"  width="66%" alt="Flex cable connector">
+
+These flex cable connectors have a rectangular lock sitting around the flex cable.
+To release it, gently pull the lock out of the connector.
+It will not detach from it completely, but just move up a few millimeters to unlock the flex cable.
+You can pull out the flex cable without force once the lock is released.
+
+I would suggest loosening the flex cables on the main board side only and leave them connected to the keyboard PCBs to not displace or switch them.
+
+Put the keyboard PCBs aside to a safe place.
+
 ## The lid
 We will replace the original case lid with a new, 3-part printed one.
 It consists of the left and right keyboard sections and a center plate.
