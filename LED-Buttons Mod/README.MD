@@ -59,5 +59,6 @@ Cylindrical screw heads advisable.
 6. 20cm female/female Dupont patch wire
 7. 2 2x8cm PCB universal prototype boards
 8. 60+ cm of 2mm diameter PMMA fiber ("side glow")
-9. 100+ cm of 3mm wide, 60 LED/m LED stripe. 
+9. 100+ cm of 3mm wide, 5V, 60 LED/m LED stripe. 
+    - Example from aliexpress.com:
     <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/AELEDstripe.png"  width="66%" alt="Example LED stripe">
