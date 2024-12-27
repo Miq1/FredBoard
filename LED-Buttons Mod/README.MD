@@ -119,4 +119,18 @@ I suggest to put some black acrylic paint over the affected areas to reduce the 
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/LEDfixedCable.png"  width="66%" alt="Areas painted matte black">
 
+Note also that the center panel has two long slits on either side that will match the two rims in the keyboard parts.
+With the final assembly we will join all three parts with these.
+Do not try to join the parts prematurely (before the LEDs are installed) because the fit is **very** tight and may not be loosened again without breaking it.
+
+## The buttons
+As is described in the "Top Row Mod" and "Center Panel Mod" instructions, print the buttons from TPU filament to keep them flexible. 
+Print the center panel buttons in any translucent color you like, as the LEDs beneath it are all white. 
+A translucent white TPU is highly recommended for the button bases to let the colored LED light shine through unmodified.
+
+The LEDs are placed at the sides of the buttons.
+To improve the lighting the buttons have two 2mm light channels each in them that will be used to transport the light to the far sides of the buttons as well.
+This is achieved by inserting short segments of PMMA fiber into the channels.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/PMMA.png"  width="66%" alt="PMMA and tools">
 
