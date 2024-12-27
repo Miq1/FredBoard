@@ -134,3 +134,7 @@ This is achieved by inserting short segments of PMMA fiber into the channels.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/PMMA.png"  width="66%" alt="PMMA and tools">
 
+Push the fiber into the channel as far as possible, the cut it cleanly with a sharp scalpel,
+The more even the cut is, the better the light will be passed through.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/PMMAShotIn.png"  width="66%" alt="PMMA pushed in">
