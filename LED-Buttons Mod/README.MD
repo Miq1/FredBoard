@@ -59,6 +59,41 @@ Cylindrical screw heads advisable.
 6. 20cm female/female Dupont patch wire
 7. 2 2x8cm PCB universal prototype boards
 8. 60+ cm of 2mm diameter PMMA fiber ("side glow")
-9. 100+ cm of 3mm wide, 5V, 60 LED/m LED stripe. 
+9. 100+ cm of 3mm wide, 5V, 60 LED/m WS2812B LED stripe. 2m or more are not that expensive and will help if you break some... 
     - Example from aliexpress.com:
     <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/AELEDstripe.png"  width="66%" alt="Example LED stripe">
+10. 8+ 2.2x4mm self cutting screws
+11. Enamelled 0.4mm wire
+12. A good quality solder
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/FlatCableCrimp.png"  width="66%" alt="Flat cable and crimp tool">
+
+* a length of AWG 24 flat cable - 5 wires at least
+* (a crimp tool suitable for JST XH contacts)
+
+### Tools
+* a fine soldering iron or workstation
+* a 3D printer capable of printed parts 300x150mm and able to print TPU. IDEX printer preferred for the two-color buttons.
+* a multimeter for testing
+* (optional) a heat gun or better a reflow workstation (recommended)
+* a hot glue gun
+* tweezers
+* (optional) a Wemos D1 mini or NodeMCU board for testing
+
+## The lid
+We will replace the original case lid with a new, 3-part printed one.
+It consists of the left and right keyboard sections and a center plate.
+You will find the STL files for these parts in the "3D STLs" folder; the files are:
+
+* ``TBLid-LeftKB.stl`` for the left,
+* ``TBLid-RightKB.stl`` for the right keyboard halves and
+* ``TBLid-Plate.stl`` for the center panel
+
+You may print these parts with any hard filament you like, I recommend using PETG or even ABS for better UV resilience.
+
+Note that lighter colors will tend to let the LEDs shine through. 
+I suggest to put some black acrylic paint over the affected areas to reduce the effect:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/LEDfixedCable.png"  width="66%" alt="Areas painted matte black">
+
+
