@@ -244,4 +244,10 @@ When routing the cable, avoid the white dots marked with a green circle around i
 The green vertical line is marking another support structure of the case tray that we will have to open later at exactly the spot where you laid the ribbon cable.
 
 ### Modifying the Case Tray
+To make room for the wiring and PCBs the case tray needs to be opened at several places.
 
+Note that this is irreversible as you will be forced to remove material from the case tray.
+
+The main modifications have to be made underneath the main board:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/CaseCutouts.png"  width="66%" alt="Cutouts at the case tray">
