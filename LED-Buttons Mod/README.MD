@@ -251,3 +251,26 @@ Note that this is irreversible as you will be forced to remove material from the
 The main modifications have to be made underneath the main board:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/CaseCutouts.png"  width="66%" alt="Cutouts at the case tray">
+
+At the area marked "1" we need to cut a hole to let through the plug from the flash mode button - should you decide to want it.
+You can see the (blurry) blot of hot glue where I mounted mine in the back.
+
+The "2" marks the area where the freshly soldered ribbon cable will run under the main board.
+The traversal structure needs a 1-2mm opening here to let pass that cable.
+
+"3" and "4" are marking the inner edges of the supporting struts that must make way for our rail board.
+These inner edges of the X-shaped struts need to be removed completely, making the struts' profiles to a "T" shape.
+The edges have to be removed down to the bottom, making a flat surface there.
+
+I used a Dremel tool with a cutting disc to remove all these pieces.
+
+In addition to the modifications show on the picture we need thin slits in the blocking walls towards the left and right outer walls of the case tray to let pass the ribbon cables leading to the connector boards.
+
+Again I used the Dremel tool to cut small openings - just one disc thickness wide and just as deep as was necessare to get the ribbon cable through.
+
+### Placing the Boards
+Now that everything is prepared we can install the three boards.
+
+The rail board should neatly fit into the opening we created between the struts:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RailPCBinPlace.png"  width="66%" alt="Rail PCB placed">
