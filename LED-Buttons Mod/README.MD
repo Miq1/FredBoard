@@ -239,3 +239,9 @@ With the exception of DATA IN all wires can be cut to length and soldered to the
 DATA IN is available only at the indicated pin of the flex cable connector.
 With a tiny drop of solder you should be able to fix the DATA IN wire to it.
 
+I like to secure the ribbon cable with two drops of hot glue to the main board.
+When routing the cable, avoid the white dots marked with a green circle around it: these are the spots where the support struts from the case tray will touch the main board.
+The green vertical line is marking another support structure of the case tray that we will have to open later at exactly the spot where you laid the ribbon cable.
+
+### Modifying the Case Tray
+
