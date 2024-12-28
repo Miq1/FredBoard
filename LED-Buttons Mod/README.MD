@@ -283,6 +283,10 @@ Again take care not to deform the the cylindrical columns when warming those wit
 
 As an example for both sides see the placement of the left connector board below.
 The cables are running through the opened walls, the board is placed immediately adjacent to the outer wall of the case tray.
+The connector is on the side pointing outwards - when the keyboard PCBs are back in place there will be a gap leaving the connector accessible.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LeftPortInPlace.png"  width="66%" alt="Left connector board placed">
 
+(The inner wall next to the board was broken already when I got my Theoryboard...)
+
+All three boards now can be fixed in place with a good portion of hot glue.
