@@ -298,9 +298,28 @@ Now that the lower part of the wiring is inplace, we can put most components bac
 Be sure to use the correct orientation of cables if you had completely removed those.
 The flex cable connectors' locks will fall in place again when pushing these gently towards the boards until you will feel a slight clicking movement.
 - put the PCBs back into the case tray.
-- use the 8 larger corner screws to fix the keyboard PCBs
+- use the 8 larger corner screws to fix the keyboard PCBs (4 each)
 - **do not fix the main board yet**
 - add the 8 bottom screws with smaller heads to additionally fix the keyboard PCBs.
-**Leave off the 8 top screws as are marked on the picture below**
+**Leave off the 8 top screws (4 each) as are marked on the picture below**
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RemoveScrews.png"  width="66%" alt="Screws to leave off">
+
+## The LED stripes
+This step is that with the most difficult procedures.
+Take your time and act cautiously.
+
+Since the LED stripe has a 60/m measure, meaning 60 LEDS are evenly distributed on one meter of stripe, their distance of 16,667mm is not suitable for the distances our board will need.
+
+The technique used to achieve the distances for the buttons is to loop the stripe between the LEDs proper in different lengths.
+
+The LED stripe not only is really narrow, the LEDs and their connections to the stripe are not very robust.
+A single broken connection will render the stripe useless for our purpose.
+
+Thus utmost care must be taken to not bend the stripe too close to the LEDs to prevent them to break off.
+The stripe material itself is tolerating some rough treatment, though, so if you need to force a bend, do so at the plain stripe.
+
+As said before, the stripes have a direction, indicated by arrows printed on the stripe.
+You need to maintain a direction of left-to-right (if seen from above the Theoryboard) throughout the stripes' installation.
+**You will have to install the stripes from the bottom side of the lid parts, so keep in mind the directions will be reversed!**
+
