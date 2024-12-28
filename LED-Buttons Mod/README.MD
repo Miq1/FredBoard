@@ -386,3 +386,33 @@ Once that is applied, I additionally will put a short piece of heat shrinking tu
 The result:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/ConnectionFixed.png"  width="66%" alt="Connection with glue and shrunk tube over it">
+
+If you came here with success, take a break now and let the connection harden for some hours!
+
+#### Left Stripe, Data Pin
+Next we will take care of the DATA IN connection that will be located on the far side of the stripe, opposite to the connection we just made.
+
+There we will need the middle pad on the stripe only and solder one angled pin header to it.
+The longer leg of that pin header shall point out from the stripe in the direction the LEDs are facing.
+In the end the single data wire across the center plate will connect here.
+
+First of all shove another short piece of heat shrinking tube from the far end over the stripe, as you will not be able to do that any more as soon as the pin header is soldered.
+
+Next put a little bit of tin on the middle pad of the connector at the end of the stripe.
+Try to not hit the adjacent GND and +5V pads if possible.
+
+Remove the plastic frame from the pin header, so that you get the metal part only. 
+With a soldering iron put some tin on the short leg of the header.
+
+If you have a very fine brush and acrylic paint at hand, try to cover the GND and +5V pads with it to provide a minimal isolation,
+Do not touch the tinned middle pad with it.
+
+Now with a swift touch of the iron again solder the pin to the stripe pad.
+
+With the multimeter check if there is any short between the pin and GND or +5V.
+
+If all is still working, you may secure the pin on the stripe with the technique as before: put a drop of glue on the joint, shove over the heat shrinking tube and shrink that with a heat gun.
+
+Again the result:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PinConnectionFix.png"  width="66%" alt="Header pin with glue and shrunk tube over it">
