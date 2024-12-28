@@ -354,7 +354,7 @@ A 9-10cm length of ribbon cable will be sufficient to connect to the socket.
 
 **Note that the DATA IN and 3V3 wires need to be crossed at the connector to maintain the order of the internal wiring!**
 
-Having the prepered cable ready as seen on the picture, first with a hot soldering iron tin the three contact pads on the stripe.
+Having the prepared cable ready as seen on the picture, first with a hot soldering iron tin the three contact pads on the stripe.
 Try not to put excess tin on it to prevent a short that is hard to remove.
 
 Soldering is best to be done with a "third hand" tool fixing the parts to be joined in place.
@@ -376,4 +376,13 @@ I found it handy to always check if the stripe was working while I was on it.
 I wrote a small test sketch running on an ESP8266 MCU that will drive the connected stripe to show some test patterns.
 You will find the sketch code in the "Test sketch" directory with a few explanations in the enclosed README.MD file there.
 
+No would be the first sensible point to put it into action to see if the stripe as is will work.
+
 #### Leftmost Cable continued
+If the stripe is working, we can fix the connection to further prevent breaks or shorts.
+I normally will use a drop of "Pattex Repair Extreme" glue - an acrylic glue that is viscous and will fill the tiny gaps between the ribbon cable and the stripe.
+Once that is applied, I additionally will put a short piece of heat shrinking tube over the joint and let it shrink with a heat gun.
+
+The result:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/ConnectionFixed.png"  width="66%" alt="Connection with glue and shrunk tube over it">
