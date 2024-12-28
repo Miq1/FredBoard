@@ -154,3 +154,40 @@ These main board wires will go to a "rail board" tha sits under the main board a
 The schematics is simple:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/Schematic.png"  width="66%" alt="Wiring schematics">
+
+The connector from the main board has GND, 3V3 and the DATA IN signal for the LED stripes, plus two wires that, when shorted at power up, will set the board into flashing mode.
+This is purely optional, if you do not want the flash button extension, leave out the two wires completely - but be sure to connect the other three as are seen in the schematic and wiring.
+
+The capacitor is to stabilize the power supply of the LEDs.
+Newer Theoryboards will have the same type of capacitor sitting below the keyboard PCBs (large pads close to the flex cable connector, minus is the upper pad) for the same reason.
+
+The power lines are split into two sets of wires to supply each side independently, whereas the DATA IN line is only directed to the left keyboard'S LED stripe.
+
+The general order of LEDs is from the far left to the far right. The DATA IN signal is guided through a single wire between the left and right stripe running below the center plate.
+
+Keep this in mind! 
+If you happen to miss this order at some point, the stripes may not work at all or at least are not lit correctly by the firmware, that is relying on the order described.
+
+You will see that most LED stripes have arrow symbols printed on that will give the direction the stripes' LEDs are ordered. We will need the arrows are strictly pointing to the right.
+
+### Three PCBs
+We will build three small PCBs. 
+One center "rail board" and two small connector boards to the left and to the right.
+
+I am preferring designs that will allow a separation of components if necessary in the future, so all the PCBs are connected by JST XH type sockets and plugs.
+You may solder the wires directly if you prefer, but I strongly advise to at least leave in the 6-pin connector between main board and the rail PCB to be able to restore the Theoryboard to almost its original state if needed.
+
+The rail board has 90° angled JST XH connectors - else it will not fit below the main board any more.
+These angled connectors are not to be found in the common sets of JST XH connectors, but must be ordered separately.
+The set boxes will have straight connectors only.
+
+#### The Rail Board
+I took one of the 2x8cm prototype PCBs to set up the rail board.
+This PCB will fit neatly into the lower middle compartment of the case tray (after some preparations described further down).
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RailPCBTop.png"  width="66%" alt="Rail board from top">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RailPCBBottom.png"  width="66%" alt="Rail board from below">
+
+As you can see I used enamelled wire to construct the traces. The capacitor must be placed lying sideways to again fit under the main board.
+
+
