@@ -2,7 +2,7 @@
 This modification will replace the top row buttons of the Theoryboard by RGB LED-lit ones the FredBoard firmware is controlling.
 Initially the left button row is serving as a reference of the note colors, whereas the right button row will indicate the color of the currently selected root note.
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/NoteReference.png"  width="66%" alt="Example lit board">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/NoteReference.png"  width="66%" alt="Example lit board">
 
 ## Some remarks before you start - please read!
 This mod is a slightly complicated one and has several caveats to consider:
@@ -26,7 +26,7 @@ Note that this modification is including both the "Top Row Mod" and the "Center 
 ### Materials
 #### Case lid
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/LidParts.png"  width="66%" alt="Materials for the lid">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LidParts.png"  width="66%" alt="Materials for the lid">
 
 1. 3D printed components for the plastic lid.
 Note that a 3D printer is required that is able to print a 300mm wide and 150mm deep part!
@@ -39,7 +39,7 @@ Cylindrical screw heads advisable.
 
 #### Wiring and electronics
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/WiringParts.png"  width="66%" alt="Materials for wiring">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/WiringParts.png"  width="66%" alt="Materials for wiring">
 
 1. Crimp contacts for JST XH type connectors
 2. JST XH connectors 
@@ -61,12 +61,12 @@ Cylindrical screw heads advisable.
 8. 60+ cm of 2mm diameter PMMA fiber ("side glow")
 9. 100+ cm of 3mm wide, 5V, 60 LED/m WS2812B LED stripe. 2m or more are not that expensive and will help if you break some... 
     - Example from aliexpress.com:
-    <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/AELEDstripe.png"  width="66%" alt="Example LED stripe">
+    <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/AELEDstripe.png"  width="66%" alt="Example LED stripe">
 10. 8+ 2.2x4mm self cutting screws
 11. Enamelled 0.4mm wire
 12. A good quality solder
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/FlatCableCrimp.png"  width="66%" alt="Flat cable and crimp tool">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/FlatCableCrimp.png"  width="66%" alt="Flat cable and crimp tool">
 
 * a length of AWG 24 flat cable - 5 wires at least
 * (a crimp tool suitable for JST XH contacts)
@@ -92,7 +92,7 @@ Put the screws at a safe place to later find them again...
 The left and right keyboard halves are connected to the main board by flex cables.
 Be careful not to bend these cables or break them! 
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/FlexConnector.png"  width="66%" alt="Flex cable connector">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/FlexConnector.png"  width="66%" alt="Flex cable connector">
 
 These flex cable connectors have a rectangular lock sitting around the flex cable.
 To release it, gently pull the lock out of the connector.
@@ -117,7 +117,7 @@ You may print these parts with any hard filament you like, I recommend using PET
 Note that lighter colors will tend to let the LEDs shine through. 
 I suggest to put some black acrylic paint over the affected areas to reduce the effect:
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/LEDfixedCable.png"  width="66%" alt="Areas painted matte black">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LEDfixedCable.png"  width="66%" alt="Areas painted matte black">
 
 Note also that the center panel has two long slits on either side that will match the two rims in the keyboard parts.
 With the final assembly we will join all three parts with these.
@@ -132,9 +132,9 @@ The LEDs are placed at the sides of the buttons.
 To improve the lighting the buttons have two 2mm light channels each in them that will be used to transport the light to the far sides of the buttons as well.
 This is achieved by inserting short segments of PMMA fiber into the channels.
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/PMMA.png"  width="66%" alt="PMMA and tools">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PMMA.png"  width="66%" alt="PMMA and tools">
 
-Push the fiber into the channel as far as possible, the cut it cleanly with a sharp scalpel,
+Push the fiber into the channel as far as possible, the cut it cleanly with a sharp scalpel.
 The more even the cut is, the better the light will be passed through.
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/PMMAShotIn.png"  width="66%" alt="PMMA pushed in">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PMMAShotIn.png"  width="66%" alt="PMMA pushed in">
