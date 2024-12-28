@@ -103,7 +103,7 @@ I would suggest loosening the flex cables on the main board side only and leave 
 
 Put the keyboard PCBs aside to a safe place.
 
-## The lid
+## The Lid
 We will replace the original case lid with a new, 3-part printed one.
 It consists of the left and right keyboard sections and a center plate.
 You will find the STL files for these parts in the "3D STLs" folder; the files are:
@@ -123,7 +123,7 @@ Note also that the center panel has two long slits on either side that will matc
 With the final assembly we will join all three parts with these.
 Do not try to join the parts prematurely (before the LEDs are installed) because the fit is **very** tight and may not be loosened again without breaking it.
 
-## The buttons
+## The Buttons
 As is described in the "Top Row Mod" and "Center Panel Mod" instructions, print the buttons from TPU filament to keep them flexible. 
 Print the center panel buttons in any translucent color you like, as the LEDs beneath it are all white. 
 A translucent white TPU is highly recommended for the button bases to let the colored LED light shine through unmodified.
@@ -138,3 +138,14 @@ Push the fiber into the channel as far as possible, the cut it cleanly with a sh
 The more even the cut is, the better the light will be passed through.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PMMAShotIn.png"  width="66%" alt="PMMA pushed in">
+
+Do not yet insert the buttons into the keyboard parts before the LED stripes have been installed.
+
+## The Wiring
+We will take all needed signals and power from the main board. 
+With one exception all are available on solder points that are easy to connect.
+These main board wires will go to a "rail board" tha sits under the main board and will distribute the signals to the LED stripes and the flash button (optional, see below).
+
+The schematics is simple:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/Schematics.png"  width="66%" alt="Wiring schematics">
