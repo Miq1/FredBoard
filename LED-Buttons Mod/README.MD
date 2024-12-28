@@ -290,3 +290,17 @@ The connector is on the side pointing outwards - when the keyboard PCBs are back
 (The inner wall next to the board was broken already when I got my Theoryboard...)
 
 All three boards now can be fixed in place with a good portion of hot glue.
+
+## Reassembly of the Case Tray
+Now that the lower part of the wiring is inplace, we can put most components back together.
+
+- reconnect the keyboard PCBs to the main board, using the flex cables. 
+Be sure to use the correct orientation of cables if you had completely removed those.
+The flex cable connectors' locks will fall in place again when pushing these gently towards the boards until you will feel a slight clicking movement.
+- put the PCBs back into the case tray.
+- use the 8 larger corner screws to fix the keyboard PCBs
+- **do not fix the main board yet**
+- add the 8 bottom screws with smaller heads to additionally fix the keyboard PCBs.
+**Leave off the 8 top screws as are marked on the picture below**
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RemoveScrews.png"  width="66%" alt="Screws to leave off">
