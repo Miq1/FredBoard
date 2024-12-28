@@ -148,4 +148,4 @@ These main board wires will go to a "rail board" tha sits under the main board a
 
 The schematics is simple:
 
-<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/Schematics.png"  width="66%" alt="Wiring schematics">
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/Schematic.png"  width="66%" alt="Wiring schematics">
