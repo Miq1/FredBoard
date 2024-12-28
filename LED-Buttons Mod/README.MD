@@ -123,6 +123,11 @@ Note also that the center panel has two long slits on either side that will matc
 With the final assembly we will join all three parts with these.
 Do not try to join the parts prematurely (before the LEDs are installed) because the fit is **very** tight and may not be loosened again without breaking it.
 
+Finally insert the melt-in M3 threads into the 4 cylindrical columns (2 each on either lid half).
+Be careful not to deform these columns when warming up, they need to fit into the corresponding holes in the lower case tray.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LidMeltedIn.png"  width="66%" alt="Threads melted in the lid">
+
 ## The Buttons
 As is described in the "Top Row Mod" and "Center Panel Mod" instructions, print the buttons from TPU filament to keep them flexible. 
 Print the center panel buttons in any translucent color you like, as the LEDs beneath it are all white. 
