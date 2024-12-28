@@ -181,6 +181,8 @@ The rail board has 90° angled JST XH connectors - else it will not fit below th
 These angled connectors are not to be found in the common sets of JST XH connectors, but must be ordered separately.
 The set boxes will have straight connectors only.
 
+**Be sure to always maintain the order of wires GND, 3V3 and DATA IN!**
+
 #### The Rail Board
 I took one of the 2x8cm prototype PCBs to set up the rail board.
 This PCB will fit neatly into the lower middle compartment of the case tray (after some preparations described further down).
@@ -190,4 +192,11 @@ This PCB will fit neatly into the lower middle compartment of the case tray (aft
 
 As you can see I used enamelled wire to construct the traces. The capacitor must be placed lying sideways to again fit under the main board.
 
+It is advisable to use the exact same layout to have the connectors accessible when the board is mounted into the case tray.
 
+#### The Connector Boards
+The left (3 pins) and right (2 pins) connector boards are very similar.
+A plug and a approx. 36cm ribbon cable are the connactcion to the rail board, whereas the other end of the cable will be soldered to a small PCB with a matching straight JST XH connector on it.
+These connectors will accept the plugs from the respective side's LED stripe.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/AllPCBs.png"  width="66%" alt="3 PCBs">
