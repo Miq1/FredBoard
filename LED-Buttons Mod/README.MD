@@ -196,7 +196,31 @@ It is advisable to use the exact same layout to have the connectors accessible w
 
 #### The Connector Boards
 The left (3 pins) and right (2 pins) connector boards are very similar.
-A plug and a approx. 36cm ribbon cable are the connactcion to the rail board, whereas the other end of the cable will be soldered to a small PCB with a matching straight JST XH connector on it.
+A plug and a approx. 36cm ribbon cable are the connection to the rail board, whereas the other end of the cable will be soldered to a small PCB with a matching straight JST XH connector on it.
 These connectors will accept the plugs from the respective side's LED stripe.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/AllPCBs.png"  width="66%" alt="3 PCBs">
+
+**I cannot emphasize enough to maintain the order of pins!**
+
+I used the 3D printed cable clamps (``CableClamp.stl`` in the "3D STLs" folder) with two of the angled pin headers to secure the ribbon cables against being ripped off.
+This may be overly cautious - you may decide to omit that.
+
+I recommend to use a multimeter frequently to make sure all connections are correct and no short has been introduced.
+
+#### Mounting Plates
+I like to fix such additions to an existing device with hot glue.
+In case you need to remove it again, a hot air gun is sufficient to heat the glue to get it off the ground.
+Hot glue is mostly fine, but adhesion may not be the best depending of the material it is applied to.
+This is why I designed mounting plates for the three PCBs that have the right dimensions to fit and have a grid structure at the bottom side to nicely be filled and held by the hot glue.
+
+Print files are again in the "3D STLs" folder, named ``PCBsocketLarge.stl``and ``PCBsocketSmall.stl``, respectively.
+
+The mounting plates can be fixed to the PCBs by the tiny 2.2mm screws through their holes in the corners.
+
+### Wiring the Main Board
+**This is the point where you may accidentally damage the main board - take utmost care to only solder to the points as described!**
+
+Please see the following picture of the main board for the remarks below it:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/MainBoardCabling.png"  width="66%" alt="Main board wire connections">
