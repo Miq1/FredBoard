@@ -224,3 +224,18 @@ The mounting plates can be fixed to the PCBs by the tiny 2.2mm screws through th
 Please see the following picture of the main board for the remarks below it:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/MainBoardCabling.png"  width="66%" alt="Main board wire connections">
+
+A 12cm ribbon cable with 5 wires (3, if you do not want to have the flash mode button) is used to connect to the main board.
+It is advisable to crimp the 6-pin JST XH plug before soldering the other ends to the main board to prevent strain on the freshly soldered connections.
+On the picture you see my colors used for the different signals:
+
+- red for 3V3
+- brown for GND
+- orange for DATA IN
+- yellow and green for the flash connection
+
+With the exception of DATA IN all wires can be cut to length and soldered to the indicated soldering points.
+
+DATA IN is available only at the indicated pin of the flex cable connector.
+With a tiny drop of solder you should be able to fix the DATA IN wire to it.
+
