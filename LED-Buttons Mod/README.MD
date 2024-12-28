@@ -336,3 +336,44 @@ The green arrow pointing to the left end of the stripe indicates a cut made by m
 I recommend to cut at the beginning of a 3-trace contact area, hence sacrificing the LED before it.
 You will benefit from the longer traces when soldering a ribbon cable to it.
 Same holds true for the end of the 24 LED segment.
+
+Note also the tiny arrow symbols on the stripe indicating the direction, and the order of signals at the connectors:
+
+* top: GND
+* middle: DATA IN
+* bottom: +5V - specified voltage, we will be using 3V3
+
+I strongly advise to cut, tin, trim and crimp the cables before soldering these to the LED stripe.
+Even if you may lose the work when breaking something afterwards, preparing the cables will protect the stripes from being broken by rough treatment.
+
+#### Leftmost Cable
+On the far left side we have a 3-wire ribbon cable that will be plugged into the left JST XH socket and connect to the left end of the stripe on the other end.
+A 9-10cm length of ribbon cable will be sufficient to connect to the socket.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LeftCable.png"  width="66%" alt="Cable for left stripe on left side">
+
+**Note that the DATA IN and 3V3 wires need to be crossed at the connector to maintain the order of the internal wiring!**
+
+Having the prepered cable ready as seen on the picture, first with a hot soldering iron tin the three contact pads on the stripe.
+Try not to put excess tin on it to prevent a short that is hard to remove.
+
+Soldering is best to be done with a "third hand" tool fixing the parts to be joined in place.
+The connection will not stand any bending or pulling, so try to avoid these movements completely to the end of the work on it.
+
+Next with a swift touch of the iron solder the middle DATA IN wire to the middle pad.
+It does not need to be overly fixed, a small unbroken connection will do.
+
+With a multimeter check if you produced a short between any of the three pads before proceeding.
+The best way to get rid of a short is to unsolder the wire again, remove most of the tin on the pads and try again.
+
+Next bend the outer wires to their target pads one by one and again with a swift touch fix each on the respective pad.
+
+With the multimeter check for any shorts again.
+There must be no connection between any of the pads.
+
+#### Interlude: the Test Sketch
+I found it handy to always check if the stripe was working while I was on it.
+I wrote a small test sketch running on an ESP8266 MCU that will drive the connected stripe to show some test patterns.
+You will find the sketch code in the "Test sketch" directory with a few explanations in the enclosed README.MD file there.
+
+#### Leftmost Cable continued
