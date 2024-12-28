@@ -274,3 +274,15 @@ Now that everything is prepared we can install the three boards.
 The rail board should neatly fit into the opening we created between the struts:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RailPCBinPlace.png"  width="66%" alt="Rail PCB placed">
+
+Note the openings marked with red rectangles.
+
+Now is the time to also melt in the M2 threads into the openings marked green.
+These will later accept the M2 screws used to hold everything together in the middle.
+Again take care not to deform the the cylindrical columns when warming those with the heated threads.
+
+As an example for both sides see the placement of the left connector board below.
+The cables are running through the opened walls, the board is placed immediately adjacent to the outer wall of the case tray.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LeftPortInPlace.png"  width="66%" alt="Left connector board placed">
+
