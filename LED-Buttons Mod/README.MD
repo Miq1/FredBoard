@@ -323,3 +323,16 @@ As said before, the stripes have a direction, indicated by arrows printed on the
 You need to maintain a direction of left-to-right (if seen from above the Theoryboard) throughout the stripes' installation.
 **You will have to install the stripes from the bottom side of the lid parts, so keep in mind the directions will be reversed!**
 
+### Wiring the Stripes
+For each stripe we will need 24 LEDs. 
+These 24 LEDs must be consecutive on a piece of stripe that is native - no modifications made to it.
+I have to explicitly state that as I learned that the vendors seem to join shorter pieces of stripes to form a longer one by soldering them together.
+On the picture below the red arrow is pointing to such a soldering point.
+We can not use these mended stripes as they will tend to break when bent at the soldered joints.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/Stripe.png"  width="66%" alt="Example stripe">
+
+The green arrow pointing to the left end of the stripe indicates a cut made by me.
+I recommend to cut at the beginning of a 3-trace contact area, hence sacrificing the LED before it.
+You will benefit from the longer traces when soldering a ribbon cable to it.
+Same holds true for the end of the 24 LED segment.
