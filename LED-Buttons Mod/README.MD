@@ -495,8 +495,33 @@ With a flat file you will have to remove some material at the areas marked red i
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PlateJoin.png"  width="66%" alt="Areas marked to be filed to fit">
 
 Do not overdo - rather file, try, file again etc. until you will get a very precise fit.
+depending on your printer you may have to file the inner or outer rims of the slits.
+Best try first by holding the center plate in place to find which direction will suit you better.
 A perfect fit will hold the parts together without any glue.
 This is advantageous if you later decide to have a different center plate or need to repair one part.
 
 If all else fails or if you feel better with it, you of course can put a few drops of acrylic glue (or whatever sticks best to the filament type you chose) on the joints to secure them.
 
+If the parts are neatly connected, plug in the DATA wire on both keyboard sides (as seen for the right keyboard side on the picture above).
+
+## Final Assembly
+Place the screen protector/filter on the display and set all center panel buttons into their places.
+Nov lift the joint lid on the keyboard and connect the two ribbon cables to their sockets.
+Gently nudge the lid in place:
+
+- the center panel buttons must glide into their openings in the center plate
+- the keypads must fit into the grids
+- the clamps at the outer edges of the lid must go into the openings in the case tray
+- the 4 corner struts with the melt-in threads must slip into the cylindrical holes of the tray
+
+You may need to wiggle and nudge a lot until all is matching.
+
+Use the 4 M2 screws to fix both center plate and overlapping keyboard halves to their thread down in the tray.
+
+Flip the board over, holding the outer sides of lid and tray pressed together witch your hands.
+
+From the bottom side fasten the 4 M3 screws into their holes in the corners of the tray.
+
+Flip over again - it is done!
+
+Congratulations!
