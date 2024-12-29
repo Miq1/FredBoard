@@ -444,3 +444,14 @@ If you will look at the inner side of the lid parts you will notice a complicate
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LEDchannel.png"  width="66%" alt="Structure to hold the LED stripe">
 
+The structure has segments shaped like a inverted "T" in the bottom row and "bubbles" on top of each T.
+The T shapes have two alternating sizes, a narrower T for the spacing between the two LEDs for one button and a wider T fot the spacing between two buttons.
+
+You will notice the "bubble" on top of the narrower T always is larger than that on top of the wider T. That is because the bubbles need to hold the excess stripe material and a narrower distance between LEDs results in more stripe to be held.
+
+Starting on one side we will insert the LED stripe in such a way that the LEDs are placed in the gaps between the Ts and the stripe will be looped through the bubbles between the LEDs.
+
+**A word of caution again: the stripe sections immediately to the left and right of a LED must not be bent to prevent a break-off of the LED!**
+
+I found it handy to use a small tweezer to grab and bent the stripe at the right spots in right angles, but gently push it into the structure with a finger.
+If a LED does not yet fit into its gap, gently pull the previous loop in the previous bubble a bit to set it right.
