@@ -484,3 +484,19 @@ I used a rounded plastic tool to press the cable in.
 It will hold without any glue.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/DATAcable.png"  width="66%" alt="DATA wire set into the center panel">
+
+Finally we must join the three parts of the lid.
+There are two slits on each side of the center plate where the 2 edges of the keyboard parts must fit in.
+
+The fit is overly tight on purpose, since any 3D printer will have its own tolerances.
+
+With a flat file you will have to remove some material at the areas marked red in the picture below:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PlateJoin.png"  width="66%" alt="Areas marked to be filed to fit">
+
+Do not overdo - rather file, try, file again etc. until you will get a very precise fit.
+A perfect fit will hold the parts together without any glue.
+This is advantageous if you later decide to have a different center plate or need to repair one part.
+
+If all else fails or if you feel better with it, you of course can put a few drops of acrylic glue (or whatever sticks best to the filament type you chose) on the joints to secure them.
+
