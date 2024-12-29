@@ -468,3 +468,12 @@ Finally you can fix the stripe additionally by filling the larger bubbles with h
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/StripeSealed.png"  width="66%" alt="LED stripe fixated">
 
+## Reassembly Part 2
+Now you can squeeze the TPU buttons in their holes below the LEDs.
+The fit is **very** tight on purpose.
+The best way to get the buttons in is to first press the side with the PMMA fibers against the LED row and into the button openings.
+Then with some force but carefully try to press the lower side of the buttons in.
+
+After the procedure the buttons must be flush with the LED frame:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/ButtonsFlushing.png"  width="66%" alt="Buttons are even with the LED frame">
