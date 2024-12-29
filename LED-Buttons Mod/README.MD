@@ -477,3 +477,10 @@ Then with some force but carefully try to press the lower side of the buttons in
 After the procedure the buttons must be flush with the LED frame:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/ButtonsFlushing.png"  width="66%" alt="Buttons are even with the LED frame">
+
+Next insert the data wire into the channel on the bottom side of the center panel.
+Try to have the ends of even length.
+I used a rounded plastic tool to press the cable in.
+It will hold without any glue.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/DATAcable.png"  width="66%" alt="DATA wire set into the center panel">
