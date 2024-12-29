@@ -423,3 +423,15 @@ The right LED stripe has to have the single DATA pin on the left hand end that w
 Be sure to have the little arrow symbols pointing away from the pin to get the right order of LEDs.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RightPinFixed.png"  width="66%" alt="Right stripe data pin in place">
+
+#### Right stripe, connector cable
+Finally the right end of the right stripe has to get its 2-wire ribbon cable with a 2-pin JST XH plug.
+
+The same techniques are applied here: prepare the ribbon cable including the plug first.
+Take care to maintain the order of wires for the socket - GND and 3V3 must not be swapped.
+Think thrice before fixing it...
+Next tin the two outer pads on the stripe and cover the middle with acrylic paint if you can.
+Solder the ribbon cable to the stripe pads, again checking the order of signals.
+Finally - after testing the stripe - put some glue on the connection and cover it with a heat shrinking tube.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RightCableFixed.png"  width="66%" alt="Right stripe ribbon cable in place">
