@@ -416,3 +416,10 @@ If all is still working, you may secure the pin on the stripe with the technique
 Again the result:
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/PinConnectionFix.png"  width="66%" alt="Header pin with glue and shrunk tube over it">
+
+#### Right Stripe, Data Pin
+The right LED stripe has to have the single DATA pin on the left hand end that will get the signal from the similar pin on the rightmost end of the left stripe.
+
+Be sure to have the little arrow symbols pointing away from the pin to get the right order of LEDs.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RightPinFixed.png"  width="66%" alt="Right stripe data pin in place">
