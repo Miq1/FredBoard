@@ -435,3 +435,12 @@ Solder the ribbon cable to the stripe pads, again checking the order of signals.
 Finally - after testing the stripe - put some glue on the connection and cover it with a heat shrinking tube.
 
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/RightCableFixed.png"  width="66%" alt="Right stripe ribbon cable in place">
+
+### Inserting the Stripes
+Now that the wiring is done, we will insert the stripes into their respective lid halves.
+Remember that the left part has the 3-wire ribbon cable leftmost and the pin in the middle, whereas the right part has the 2-wire cable far right and again the DATA pin in the middle.
+
+If you will look at the inner side of the lid parts you will notice a complicated meandering structure at the upper edge.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LEDchannel.png"  width="66%" alt="Structure to hold the LED stripe">
+
