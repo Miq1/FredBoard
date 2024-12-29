@@ -445,7 +445,7 @@ If you will look at the inner side of the lid parts you will notice a complicate
 <img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/LEDchannel.png"  width="66%" alt="Structure to hold the LED stripe">
 
 The structure has segments shaped like a inverted "T" in the bottom row and "bubbles" on top of each T.
-The T shapes have two alternating sizes, a narrower T for the spacing between the two LEDs for one button and a wider T fot the spacing between two buttons.
+The T shapes have two alternating sizes, a narrower T for the spacing between the two LEDs for one button and a wider T for the spacing between two buttons.
 
 You will notice the "bubble" on top of the narrower T always is larger than that on top of the wider T. That is because the bubbles need to hold the excess stripe material and a narrower distance between LEDs results in more stripe to be held.
 
@@ -453,5 +453,18 @@ Starting on one side we will insert the LED stripe in such a way that the LEDs a
 
 **A word of caution again: the stripe sections immediately to the left and right of a LED must not be bent to prevent a break-off of the LED!**
 
-I found it handy to use a small tweezer to grab and bent the stripe at the right spots in right angles, but gently push it into the structure with a finger.
+I found it handy to use a small tweezer to grab and bend the stripe at the right spots in right angles, but gently push it into the structure with a finger only.
 If a LED does not yet fit into its gap, gently pull the previous loop in the previous bubble a bit to set it right.
+Finally I used a rounded plastic tool to push the stripe at the bent corners deeper into the structure.
+At all times I let the stripe connected to the test ESP8266 to immediately notice if I had something broken.
+That did happen a couple of times during development - I had to spend about 2 meters of LED stripe until I had finished two complete sets.
+I got better over time...
+
+When the stripe is set into the structure, it should look like on the picture below - and still be working.
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/StripeSetIn.png"  width="66%" alt="LED stripe inserted">
+
+Finally you can fix the stripe additionally by filling the larger bubbles with hot glue:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/StripeSealed.png"  width="66%" alt="LED stripe fixated">
+
