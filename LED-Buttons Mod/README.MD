@@ -22,6 +22,10 @@ On the plus side you will gain some benefits:
 
 Note that this modification is including both the "Top Row Mod" and the "Center Panel Mod" in modified form.
 
+## Update V1.1
+- I modified the STLs for a better fit. All instructions remain valid, just the 3D prints are different.
+- I added some pictures of the different lettering on the buttons (center/ragged left, lit/plain, main text only/second text added).
+
 ## Requirements
 ### Materials
 #### Case lid
