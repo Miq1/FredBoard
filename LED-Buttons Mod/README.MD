@@ -510,7 +510,7 @@ If the parts are neatly connected, plug in the DATA wire on both keyboard sides 
 
 ## Final Assembly
 Place the screen protector/filter on the display and set all center panel buttons into their places.
-Nov lift the joint lid on the keyboard and connect the two ribbon cables to their sockets.
+Now lift the joint lid on the keyboard and connect the two ribbon cables to their sockets.
 Gently nudge the lid in place:
 
 - the center panel buttons must glide into their openings in the center plate
