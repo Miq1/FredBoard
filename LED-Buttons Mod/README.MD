@@ -137,6 +137,38 @@ As is described in the "Top Row Mod" and "Center Panel Mod" instructions, print 
 Print the center panel buttons in any translucent color you like, as the LEDs beneath it are all white. 
 A translucent white TPU is highly recommended for the button bases to let the colored LED light shine through unmodified.
 
+### OpenSCAD Script
+In the "3D STLs" folder you will find an OpenSCAD script named ``LitButtons.scad``.
+You will need to install the OpenSCAD tool to use it - it is Open Source and can be found at [the OpenSCAD Home page](https://openscad.org/downloads.html).
+
+Be sure to have the Customizer visible in it; it can be displayed with the 'Customizer' entry in the 'Windows' menu.
+
+In the Customizer you will find all modifiable parameters to generate the buttons to your liking:
+
+<img src="https://github.com/Miq1/FredBoard/blob/main/LED-Buttons Mod/Pictures/OpenSCAD.png"  width="66%" alt="Customizer menu">
+
+``do`` needs to be set to both 'Letters' and 'Buttons' to generate the two respective STL files in a separate run each.
+
+``item`` lets you choose which set of buttons you want to have generated.
+Note that the 'Full set' items will require a printer with a print bed at least 270mm wide!
+If you have a smaller printer only, I recommend to print the shorter button sets instead.
+
+``centerT`` will have the main text centered on the buttons if the tick mark is set.
+The text is left bound else.
+
+``lightT`` should be marked for this mod. 
+It will generate the necessary light tunnels etc. on the buttons that are needed for lighting.
+If unchecked, buttons for the plain top row mod without LEDs will be generated.
+
+``secondText`` will reduce the main text in size and put a right bound second text below it.
+This second text is the alternative note names on the left side and a digit sequence plus 'bsp' and 'sep' on the right side. 
+These are used for the FredBoard firmware in certain cases.
+
+The rendered picture in OpenSCAD will show you the resulting objects after you modified any value.
+
+The get a valid STL from this result, you will need to first press the **F6** key to render the objects again in a finer structure, then the **F7** key to save it as a STL.
+A recommended file name based on your chosen parameters will be shown in the Console window as indicated above with the red frame.
+
 The LEDs are placed at the sides of the buttons.
 To improve the lighting the buttons have two 2mm light channels each in them that will be used to transport the light to the far sides of the buttons as well.
 This is achieved by inserting short segments of PMMA fiber into the channels.
