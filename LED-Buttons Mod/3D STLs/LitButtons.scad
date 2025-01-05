@@ -1,8 +1,27 @@
 // Upper row buttons on FredBoard
 
-fontSize = 6;           // size of text
-textXOffset = 1;        // Distance to move text right/left in non-center mode
-textYOffset = 6;        // Distance to move text up
+// Customizer variables
+/* {Global] */
+// What to render
+do = 0; // [0:Letters, 1:Buttons]
+
+// Item to render
+item = 1; // [0:C to F, 1:F# to B, 2:5/12, 3:M1 to M7, 4:Io to Lo, 5:U1/U2/U3, 6:Full left set, 7:Full right set, 8:Full alternate right set]
+
+// Centered text?
+centerT = false;
+
+// Lit buttons?
+lightT = true;
+
+// Second text line?
+secondText = true;
+
+/* [Hidden] */
+
+fontSize = secondText == true ? 6 : 7;           // size of text
+textXOffset = 0;        // Distance to move text right/left in non-center mode
+textYOffset = secondText == true ? 6 : 4;        // Distance to move text up
 fontName = "DejaVu Sans:style=Condensed Bold";
 
 fontSize2 = 3;          // size of second text
@@ -18,61 +37,24 @@ textRight = [ "5", "12", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "U1", "U2", "
 textRightAlt = [ "5", "12", "Io", "Do", "Ph", "Ly", "Mx", "Ae", "Lo", "U1", "U2", "U3"];
 textRight2nd = [ "bsp", "sep", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
-// 1. Make the button base 
-// Set "do = 1;"
-// Use the text strings from above to generate a full set or use
-// makeButtons(["one", "two", "foo", bar"], ["bla", "bot", "", "<"]) notation
-// to generate your own.
-//
-// The text vectors are mandatory, optional is
-//   center = true/false to center the text on a button
-//   light = true/false to get lighting-enabled buttons
-//
-// 2. Make the letters
-// Set "do = 0;"
-// Same options as above
-// *** Be sure to use the very same options as for the makeButtons() call,
-// *** else the result will be defective!
-//
-// Both must be rendered separately and exported as separate STL!
-
-do = 0;
-centerT = false;
-lightT = true;
-secondText = true;
-
-// Common calls - uncomment the one you want and comment out all others!
-// Left half of left row
-// textString = slice(textLeft, 0, 5);  textString2 = (secondText == true ? slice(textLeft2nd, 0, 5) : []); 
-
-// Right half of left row
-// textString = slice(textLeft, 6, 11);  textString2 = [];  
-
-// 5, 12
-// textString = slice(textRight, 0, 1); textString2 = (secondText == true ? slice(textRight2nd, 0, 1) : []); 
-
-// M1-M7
-// textString = slice(textRight, 2, 8); textString2 = (secondText == true ? slice(textRight2nd, 2, 8) : []); 
-
-// Io, Do, ...
-// textString = slice(textRightAlt, 2, 8); textString2 = (secondText == true ? slice(textRight2nd, 2, 8) : []); 
-
-// U1, U2, U3
-// textString = slice(textRight, 9, 11); textString2 = (secondText == true ? slice(textRight2nd, 9, 11) : []); 
-
-// Following two are for TEST ONLY!
-// textString = textLeft; textString2 = (secondText == true ? textLeft2nd : []);
-// textString = textRightAlt; textString2 = (secondText == true ? textRight2nd : []); 
-
 // -----------------------------------------------------------------
 // All below is internal - do not change!
 // -----------------------------------------------------------------
-if(do==1) {
-  makeButtons(textString, textString2, centerT, lightT);
-} else {
-  makeLetters(textString, textString2, centerT, lightT);
-}
+iVector = [slice(textLeft, 0, 5), slice(textLeft, 6, 11), slice(textRight, 0, 1), slice(textRight, 2, 8), slice(textRightAlt, 2, 8), slice(textRight, 9, 11), textLeft, textRight, textRightAlt];
+iVector2 = secondText == true ? [slice(textLeft2nd, 0, 5), slice(textLeft2nd, 6, 11), slice(textRight2nd, 0, 1), slice(textRight2nd, 2, 8), slice(textRight2nd, 2, 8), slice(textRight2nd, 9, 11), textLeft2nd, textRight2nd, textRight2nd] : [];
+iOption = ["C_F", "F#_B", "5_12", "M1_M7", "Io_Do", "U123", "FullLeft", "FullRightM1_M7", "FullRightIo_Do"];
 
+textString = iVector[item];
+textString2 = iVector2[item];
+fileName = concat(do == 0 ? "Letters" : "Buttons", lightT == true ? "Lit" : "Plain", iOption[item], secondText == true ? "2nd" : "", ".stl");
+
+echo("Export file name: ", join(fileName));
+
+if(do==1) {
+  render() makeButtons(textString, textString2, centerT, lightT);
+} else {
+  render() makeLetters(textString, textString2, centerT, lightT);
+}
 
 buttonWidth = 15;       // width/depth of a button
 buttonHeight = 3;       // height of a button
@@ -90,7 +72,15 @@ tilt = 5;               // angle to tilt the light tunnels towards the center
 
 function slice(list, start, end) = [for (i = [start:end]) list[i]];
 
-module basePlate (buttons, light = false) {
+join = function (l,delimiter="") 
+  let(s = len(l), d = delimiter,
+      jb = function (b,e) let(s = e-b, m = floor(b+s/2)) // join binary
+        s > 2 ? str(jb(b,m), jb(m,e)) : s == 2 ? str(l[b],l[b+1]) : l[b],
+      jd = function (b,e) let(s = e-b, m = floor(b+s/2))  // join delimiter
+        s > 2 ? str(jd(b,m), d, jd(m,e)) : s == 2 ? str(l[b],d,l[b+1]) : l[b])
+  s > 0 ? (d=="" ? jb(0,s) : jd(0,s)) : "";
+
+  module basePlate (buttons, light = false) {
   cube([2*buttonFrame+buttons*buttonWidth+(buttons-1)*buttonGap, 2*buttonFrame+buttonWidth + (light == true ? lightWidth : 0), frameHeight]);
 }
 
@@ -131,7 +121,7 @@ module makeButtons(bv = ["new"], bv2 = [], center = false, light = false) {
       basePlate(buttons, light);
       for (i = [0 : buttons - 1]) {
         tw = textmetrics(bv[i], fontSize, fontName);
-        translate([buttonFrame+i*(buttonWidth+buttonGap), buttonFrame, frameHeight-0.1])
+        translate([buttonFrame+i*(buttonWidth+buttonGap), buttonFrame, frameHeight])
           singleButton(bv[i], bv2[i], center, centerShift, light);
       }
     }
@@ -159,7 +149,7 @@ module makeLetters(bv = ["new"], bv2 = [], center = false, light = false) {
   for (i = [0 : buttons - 1]) {
     tw = textmetrics(bv[i], fontSize, fontName);
     tw2 = textmetrics(bv2[i], fontSize2, fontName2);
-    translate([buttonFrame+i*(buttonWidth+buttonGap), buttonFrame, frameHeight-0.1]) {
+    translate([buttonFrame+i*(buttonWidth+buttonGap), buttonFrame, frameHeight]) {
       translate(center == true ? [buttonWidth/2-tw.size.x/2-centerShift, textYOffset, buttonHeight-1] : [textXOffset, textYOffset, buttonHeight-1])
         color("Green") 
         linear_extrude(1)
