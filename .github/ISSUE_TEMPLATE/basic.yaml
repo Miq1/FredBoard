@@ -15,6 +15,7 @@ body:
         - alfalfa6.5G ("mooo!")
         - TallFescue.6.5999
         - "not applicable"
+        - "Mods issue"
       default: 0
     validations:
       required: true
