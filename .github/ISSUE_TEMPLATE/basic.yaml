@@ -7,13 +7,8 @@ body:
       label: Version
       description: What version of FredBoard are you running?
       options:
-        - alpha6
-        - alpha6.1
-        - alpha6.2
-        - alpha6.3b
-        - alpha6.5F
-        - alfalfa6.5G ("mooo!")
         - TallFescue.6.5999
+        - Stechapfel.6.6.pre
         - "not applicable"
         - "Mods issue"
       default: 0
