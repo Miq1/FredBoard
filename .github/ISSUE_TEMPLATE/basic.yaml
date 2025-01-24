@@ -8,7 +8,7 @@ body:
       description: What version of FredBoard are you running?
       options:
         - TallFescue.6.5999
-        - Stechapfel.6.6.pre
+        - Stechapfel.6.6a
         - "not applicable"
         - "Mods issue"
       default: 0
