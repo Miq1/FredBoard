@@ -9,6 +9,7 @@ body:
       options:
         - TallFescue.6.5999
         - Stechapfel.6.6a
+        - Stechapfel.6.6F
         - "not applicable"
         - "Mods issue"
       default: 0
