@@ -8,6 +8,7 @@ body:
       description: What version of FredBoard are you running?
       options:
         - 6.6.0 "Stechapfel"
+        - 6.6.1 "Datura"
         - "not applicable"
         - "Mods issue"
       default: 0
